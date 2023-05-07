@@ -1,0 +1,129 @@
+.radioButton {
+    padding-right: 20px;
+    width: min-content;
+}
+
+.CancelButton {
+    background-color: red !important;
+    color: white;
+    border-radius: 5px;
+    border-color: red;
+    width: 108px;
+    height: 36px;
+}
+
+.ConfirmButton {
+    width: 108px;
+    background-color: #FFAD1A;
+    color: white;
+    border-radius: 5px;
+    height: 36px;
+}
+
+
+.listHead {
+    font-weight: 500;
+    font-size: 24px;
+    text-align-last: center;
+    margin-top: 20px;
+}
+
+.ButtonSegment {
+    align-self: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ButtonFooter {
+    display: contents;
+}
+
+.popoverProps {
+    --height: 70%;
+    --width: 35%;
+    border-radius: 150px;
+}
+
+ion-popover#programSelection::part(content) {
+    min-width: 250px;
+}
+
+.popoverProps .popover-content {
+    border-radius: 200px;
+}
+
+.contentSize {
+    padding-right: 15px;
+    --scrollbar-width: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #FFAD1A;
+}
+
+.cardSize {
+    height: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.itemSize {
+    height: 75px;
+    display: flex;
+}
+
+.avatarStyle {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.cardHeader {
+    font-weight: 500;
+    display: contents;
+}
+
+.cardDesc {
+    display: table-row;
+}
+
+.searchHeader {
+    margin: 15px !important;
+    margin-bottom: 30px !important;
+}
+
+.textCenter {
+    text-align: center;
+    align-self: self-end;
+    padding-left: 25px;
+}
+
+.popoverPropsImage {
+    --height: 43%;
+    --width: 25%;
+}
+
+.selectProgramImage {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.ambassadorProgramRow {
+    display: flex;
+    justify-content: center;
+}
+
+.ambassadorProgramButton {
+
+    margin-top: 20px;
+    --background: #ffad1a;
+    --border-color: rgba(252, 202, 128, 0.5);
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    width: 70%;
+}

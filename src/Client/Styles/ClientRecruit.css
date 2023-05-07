@@ -1,0 +1,52 @@
+.ClientRecruitButton {
+    margin-right: 5%;
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #FFAD1A;
+    --background: #fff;
+}
+
+.form-card {
+    padding: 10px 10px 20px 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.048);
+    cursor: pointer;
+    min-width: 250px;
+}
+
+ion-popover#formPopOver::part(content) {
+    top: 50% !important;
+}
+
+.form-card .image-rep {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    /* background-color: #d8eeff; */
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 1rem;
+}
+
+.form-card .form-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-card .ellipsis {
+    transition: 0.3s;
+}
+
+.form-card .ellipsis:hover {
+    color: rgba(0, 0, 0, 0.432);
+    transition: 0.3s;
+}
+
+.create-form-header {
+    padding: 1rem;
+    margin-bottom: 2.75rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

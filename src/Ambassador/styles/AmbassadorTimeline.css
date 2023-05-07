@@ -1,0 +1,122 @@
+.timeline-size {
+    width: 80%;
+    /* max-width: 800px; */
+    height: 90%;
+    /* margin: 0% 10% 0% 10%; */
+    position: absolute;
+    top: 5rem;
+    padding-left: 15px;
+
+}
+
+.wrapper,
+.box {
+    display: none;
+}
+
+.raf-link {
+    color: #0D2137 !important;
+    position: relative;
+    z-index: 300;
+}
+
+.raf-new-activities-notification {
+    position: fixed;
+    z-index: 299;
+    width: 30%;
+    margin-left: 28rem;
+}
+
+.raf-panel form {
+    background: #fff;
+    padding: 1%;
+    width: 100%;
+    box-shadow: 0px 1px 4px rgba(46, 119, 174, 0.2);
+    border-radius: 16px;
+}
+
+.raf-panel--rounded {
+    box-shadow: none !important;
+
+}
+
+textarea::-webkit-input-placeholder {
+    color: rgb(222, 7, 7);
+}
+
+.raf-activity {
+    /* padding: 3%; */
+    margin-bottom: 24px;
+    margin-right: 8px;
+    /* box-shadow: inset 0 0 8px orange; */
+    padding-bottom: 2% !important;
+    /* padding: 3%; */
+    background: #F9FBFD;
+    box-shadow: 0px 1px 4px rgba(46, 119, 174, 0.2);
+    border-radius: 8px;
+}
+
+.delete-btn {
+    position: relative;
+    bottom: 0rem;
+    left: 96%;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    margin-top: 2%;
+    ;
+    margin-bottom: 2%;
+}
+
+.popover-content {
+    width: 10rem;
+    height: 5rem;
+
+}
+
+.delete-popover-comp div {
+    letter-spacing: 0.1rem;
+    background-color: #2E77AE;
+    color: white;
+    width: 100%;
+    height: 5rem !important;
+}
+
+.delete-popover {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    cursor: pointer;
+    margin: auto;
+}
+
+
+::-webkit-scrollbar {
+
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    margin-left: 1%;
+    background-color: rgba(169, 169, 169, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffad1a;
+    border-radius: 2rem;
+    box-shadow: inset 0 0 6px #f9a838;
+}
+
+.raf-comment-field .raf-textarea .raf-textarea__textarea {
+    border-radius: 5px 0 0 5px;
+}
+
+.raf-comment-field__group .raf-button {
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.raf-comment-item__author {
+    color: #456086;
+    font-weight: 700;
+}

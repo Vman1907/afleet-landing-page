@@ -1,0 +1,170 @@
+.SelectionStyle {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0px;
+}
+
+.fixing {
+    height: 20px;
+}
+
+.designation {
+    font-weight: 400;
+    font-size: 12px;
+    height: 25px;
+    margin: auto;
+
+    color: #8F8F8F;
+}
+
+.topImages {
+    padding-left: 40px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.ClientLeaderboardHead {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.ClientLeaderboardSubHead {
+    margin-top: 5rem;
+}
+
+.ClientLeaderboardButton {
+    margin-right: 5%;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFAD1A;
+    --border-color: #FFAD1A;
+}
+
+.img {
+    Width: 32px;
+    Height: 32px;
+    margin-left: auto;
+}
+
+.ClientLeaderboardTab {
+    width: 70%;
+}
+
+.ClientLeaderboardTitle {
+    /* margin-top: 20px; */
+    align-items: center;
+    background: #d8eeff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.ClientLeaderboardContent {
+
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.ClientLeaderboardRow {
+    border-bottom-color: black;
+    border-width: 10px;
+    margin-left: 10px;
+}
+
+.ClientLeaderboardDetail {
+    font-size: 12px;
+    /* font-weight: bold; */
+    font-weight: 500;
+    margin: auto;
+}
+
+#index {
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.ClientLeaderboardImage {
+    /* float: left; */
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding: auto;
+    object-fit: cover;
+}
+
+.client-img-name {
+    margin-left: 10px;
+}
+
+#client-name {
+    text-align: left;
+    /* margin-left: 10px; */
+}
+
+.ClientLeaderboardEdit {
+    Width: 18px;
+    Height: 25px;
+    margin-right: 20px;
+}
+
+.ClientLeaderboardPopOver {
+    height: 100vh;
+}
+
+.points {
+    text-align: center;
+}
+
+.profit {
+    background-color: #B2FFBA;
+    color: #0E8545;
+
+    width: 50px;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.star-size {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.rating {
+    width: 50px;
+    height: 20px;
+    font-size: 13px;
+    align-items: center;
+    /* text-align: center; */
+    font-weight: bold;
+    background-color: #FAD617;
+    border-radius: 5px;
+    color: white;
+    padding: 2px;
+    margin-top: 3px;
+
+}
+
+.finalText1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.topSpace {
+    padding-top: 1rem;
+}

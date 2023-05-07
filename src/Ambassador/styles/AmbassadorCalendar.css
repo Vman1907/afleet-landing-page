@@ -1,0 +1,58 @@
+.upcoming {
+    padding: 5px 14px 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.campaignList {
+    padding: 10px 15px 10px 10px;
+}
+
+.dot {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+}
+
+.calendarCampaign {
+    min-width: 45px;
+    min-height: 45px;
+    border-radius: 100%;
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+}
+
+.period {
+    font-weight: bold;
+    font-size: 14px;
+    color: #343434;
+
+}
+
+.card {
+    width: 300px;
+}
+
+.campaign {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #343434;
+}
+
+.referral {
+    font-size: 12px;
+    color: #8F8F8F;
+}
+
+.calenderButton {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+ion-popover#popover-bottom3::part(content) {
+    left: 60vw !important;
+
+    top: 1vh !important;
+    height: 100vh;
+    max-height: 98vh !important;
+    width: 39vw !important;
+    border-radius: 15px;
+}
+
+.setCross {
+    margin-top: 15px;
+    margin-left: 35vw;
+}
+
+.taskTitle {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.taskContain {
+    margin-bottom: 15px;
+}
+
+.indexStyle {
+    color: #FFAD1A;
+}
+
+.taskTitle2 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.waitingStatus {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #F9A000;
+    border-radius: 25px;
+    color: #FFFFFF;
+}
+
+.finalConfirmButton2 {
+    margin-top: 20px;
+    width: 133px;
+    padding: 0px !important;
+    --background: #FFAD1A;
+    --border-radius: 5px;
+    color: #FFFFFF;
+}

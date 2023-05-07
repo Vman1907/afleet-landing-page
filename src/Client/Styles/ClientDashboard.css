@@ -1,0 +1,165 @@
+.searchBar1 {
+    width: 100%;
+    --box-shadow: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.searchDesign {
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid black;
+    height: fit-content;
+    border-radius: 5px;
+    /* width: fit-content; */
+}
+
+.SelectionStyle {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0px;
+    color: #F4BE37;
+}
+
+.dashboardName {
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    padding-left: 0px;
+    color: #161107;
+}
+
+.dashboardCard {
+    min-width: 350px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.revenueName {
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: #1C1C1C;
+}
+
+.totalRevenueName {
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 12px;
+
+    display: flex;
+    align-items: center;
+    color: #8F8F8F;
+
+}
+
+.totalRevenueValue {
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #1C1C1C;
+}
+
+.totalRevenueChange {
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 12px;
+
+    display: flex;
+    align-items: center;
+    color: #4AAF05;
+}
+
+.userTitle {
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+}
+
+.userCardText {
+    font-weight: 400;
+    font-size: 12px;
+
+    display: flex;
+    align-items: center;
+    color: #8F8F8F;
+
+}
+
+.ambassdorDot {
+    color: #1565D8;
+    font-size: 25px;
+}
+
+.programDot {
+    color: #F4BE37;
+    font-size: 25px;
+}
+
+.adminDot {
+    color: #FA7878;
+    font-size: 25px;
+}
+
+.packageTitle {
+    padding: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #161107;
+}
+
+.packageNameText {
+    font-weight: 500;
+    font-size: 20px;
+    color: #1C1C1C;
+
+}
+
+.numDays {
+    color: #8F8F8F !important;
+}
+
+.status {
+    width: fit-content;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #EFFFF4;
+    border-radius: 25px;
+
+    color: #009745;
+}
+
+.circle {
+    border-radius: 0.5rem;
+    height: 0.5rem;
+    width: 0.5rem;
+    padding: 0;
+    margin-top: 0.35rem;
+    margin-right: 0.3rem;
+    /* margin-left: 11rem; */
+}
+
+.data {
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+    margin-left: 2rem;
+}
+
+.data-pecent {
+    position: relative;
+    z-index: 2;
+    bottom: 59%;
+    left: 45%;
+}
+
+.dashboardCheckbox {
+    margin-left: 10px;
+    margin-top: 6px;
+}

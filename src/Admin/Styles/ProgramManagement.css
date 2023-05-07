@@ -1,0 +1,242 @@
+.designation {
+  font-weight: 400;
+  font-size: 12px;
+  margin: auto;
+
+  color: #8f8f8f;
+}
+
+.inputUnderline1 {
+  width: 100px !important;
+  /* padding-bottom: 5px!important; */
+  height: 25px;
+}
+
+.fixing {
+  height: 20px;
+}
+
+.SelectionStyle {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  padding: 0px;
+}
+
+.ProgramManagementHead {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+.ProgramManagementEdit {
+  /* width: 20px; */
+  /* height: 20px; */
+  margin: 12px 8px 0px 0px !important;
+  cursor: pointer;
+}
+
+.ProgramManagementPopoverCreate {
+  /* Rectangle 1520 */
+  --width: 600px;
+  --height: 730px;
+  --max-height: none;
+}
+
+.ProgramManagementPopoverCreate #ion-react-wrapper {
+  overflow-y: hidden;
+}
+
+.programManagementPopOverGridCreate {
+  padding-top: 10px !important;
+  padding: 20px 40px;
+  margin: 0px !important;
+}
+
+.ProgramManagementSubHead {
+  padding-top: 15px;
+}
+
+.ProgramManagementTitle {
+  width: 97%;
+  height: 42px;
+  background: #d8eeff;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.ProgramManagementButton {
+  margin-right: 5%;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffad1a;
+  --border-color: #ffad1a;
+}
+
+.ProgramManagementContent {
+  margin: auto;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  width: 25%;
+}
+
+.imageCol {
+  padding-left: 10%;
+}
+
+.ProgramManagementImage {
+  width: 40px;
+}
+
+.ProgramManagementDetail {
+  margin: auto;
+  width: 25%;
+}
+
+.ProgramManagementRow {
+  border-bottom-color: black;
+  border-width: 10px;
+}
+
+.line {
+  border: 0.2px solid lightgray;
+  width: 98%;
+}
+
+.programManagementLoginButton {
+  --background: #fffbf4;
+  --border-color: rgba(252, 202, 128, 0.5);
+  font-weight: 500;
+  font-size: 12px;
+  color: #8f8f8f;
+}
+
+.programManagementPopover {
+  --width: 748px !important;
+  --height: 580px !important;
+  /* --offset-y:-100px;
+    --offset-x:auto; */
+}
+
+.programManagementPopoverImg {
+  width: 50px;
+  height: 50px;
+  margin-left: 0px;
+}
+
+.programManagementPopOverGrid {
+  padding-top: 30px !important;
+  padding: 40px;
+  margin: 0px !important;
+}
+
+.programManagementPopoverCloseButton {
+  padding-left: 98%;
+}
+
+.programManagementPopoverName {
+  display: block;
+  padding-top: 10px;
+}
+
+.programManagementPopoverNameTitle {
+  font-weight: 500;
+  font-size: 24px;
+  color: #1c1c1c;
+}
+
+.programManagementPopoverNameEmail {
+  font-size: 14px;
+  color: #343434;
+}
+
+.programManagementPopoverAboutTitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+
+  color: #8f8f8f;
+}
+
+.programManagementPopoverAboutContent {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+
+  color: #000;
+}
+
+.programManagementPopoverrewardTitle {
+  font-weight: 400;
+  font-size: 14px;
+  color: #8f8f8f;
+  padding-top: 2px;
+}
+
+.programManagementPopOverRow {
+  padding-top: 25px;
+}
+
+.programManagementPopoverrewardValue {
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 2px;
+  color: #000;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.programManagementPopOverButtonRow {
+  padding-top: 40px;
+}
+
+.BoxSizing {
+  padding: 20px 10px 20px 10px;
+  border-radius: 20px;
+  min-width: 100px;
+  max-width: 200px;
+}
+
+.numberSize {
+  font-weight: 500;
+  margin: auto;
+  font-size: 20px;
+
+  margin-bottom: 5px;
+  color: black;
+}
+
+.boxContent {
+  padding: auto;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.boxContent2 {
+  font-weight: 500;
+  color: #000;
+}
+
+.programManagementGrids {
+  padding: 0px 10px 0px 20px;
+}
+
+.filterSelectProgramManagement {
+  width: 90%;
+  margin-top: 20px;
+  border-color: #ffad1a;
+}
+
+.selectRow .css-26l3qy-menu {
+  overflow-y: scroll;
+  height: 100px;
+}

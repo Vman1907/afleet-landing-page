@@ -1,0 +1,40 @@
+.fileUploadButton {
+    --height: 70;
+    --border-radius: 100%;
+    --box-shadow: none;
+}
+
+.commonButton {
+    --border-radius: 5px;
+}
+
+.imageUploadContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageIcon {
+    position: relative;
+    background-color: #2e77ae;
+    border-radius: 100%;
+    bottom: 20px;
+    left: 30px;
+    color: white;
+}
+
+.imageIcon1 {
+    position: relative;
+    background-color: #FFAD1A;
+    border-radius: 100%;
+    bottom: 30px;
+    left: 32px;
+    color: white;
+}
+
+.inputLabel {
+    cursor: pointer;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+}

@@ -1,0 +1,211 @@
+.searchBar {
+  width: 100%;
+  --box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02);
+  /* Note: backdrop-filter has minimal browser support */
+
+  --border-radius: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.ambDashboradCard1 {
+  background: rgba(190, 212, 230, 0.1);
+  box-shadow: 0px 1px 4px rgba(46, 119, 174, 0.2);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.ambDashboradCard {
+  /* background: rgba(190, 212, 230, 0.1); */
+  box-shadow: 0px 1px 4px rgba(46, 119, 174, 0.2);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.ambProgramImg {
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.ambProgTitle {
+  font-size: 1.3rem;
+  font-weight: 550;
+  margin-bottom: 15px;
+}
+
+.ambProgLink {
+  border: 1px solid #E0EAF5;
+  border-radius: 4px;
+  margin-right: 60px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  min-width: 250px;
+  margin-top: 15px;
+}
+
+.ambProgLink1 {
+  margin-right: 60px;
+  padding: 5px 15px;
+  min-width: 250px;
+}
+
+.dashboardName {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  padding-left: 0px;
+}
+
+.userTitle {
+  font-weight: 500;
+  font-size: 16px;
+
+
+  color: #333333;
+}
+
+.userCardText {
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #8f8f8f;
+}
+
+.dashboardCard {
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.searchbarBorder {
+  border: 0.75px solid #0D2137;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+}
+
+.iconStyle {
+  background: #e8f5ff;
+  color: #2E77AE;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.ambassadorDetailsCard {
+  height: 90%;
+  width: 25%;
+  min-width: 250px;
+  margin-left: 30px;
+  min-height: 330px;
+  border-radius: 20px;
+  padding-right: 10px;
+}
+
+.ambImage {
+  outline: solid;
+  outline-offset: 2px;
+  outline-color: #2E77AE;
+  outline-width: 2px;
+  margin-bottom: 15px;
+}
+
+.ambImage1 {
+  width: 215px;
+  height: 215px;
+  border: 3px solid #2E77AE;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.ambCardImg {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 270px;
+  min-width: 250px;
+  margin-left: 20px;
+}
+
+.ambCardRight {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ambName {
+  font-weight: 550;
+  color: black;
+  font-size: 1.3rem;
+}
+
+.ambRPspan {
+  margin-right: 30px;
+  background: #E0EAF5;
+  border: 0.519666px solid rgba(210, 210, 210, 0.13);
+  border-radius: 4px;
+  padding: 3px 6px;
+}
+
+.columnAlign {
+  justify-content: center;
+  text-align: -webkit-center;
+}
+
+.progImg {
+  max-width: 70px;
+  min-width: 60px;
+}
+
+.ambCardTag {
+  background: #2E77AE;
+  border-radius: 6px;
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 20px;
+  padding: 5px 25px;
+}
+
+.progImg1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.programColumn {
+  justify-content: left;
+  margin-right: 35px;
+  margin-top: 5px;
+}
+
+.programTitle {
+  font-weight: 550;
+  color: black;
+}
+
+.CalendarCard {
+  height: 90%;
+  margin-left: 0px;
+  margin-left: -20px;
+  margin-right: 20px;
+}
+
+.iconAvatar {
+  background: #e8f5ff;
+  height: 35px;
+  width: 35px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.ClientCampaignTab1 {
+  color: #2E77AE !important;
+}
+
+.ClientSegmentButton {
+  height: 16px;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #2E77AE;
+}

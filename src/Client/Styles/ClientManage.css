@@ -1,0 +1,756 @@
+/* body{
+    overflow-y: scroll !important;
+} */
+
+
+
+.SelectionStyle {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0px;
+}
+
+.popoverCampaign {
+    --height: 140%;
+    --offset-y: -365.5px;
+    --offset-x: -265.5px;
+}
+
+ion-popover#popover-bottom2::part(content) {
+    left: 62vw !important;
+    top: 1vh !important;
+    height: 100vh;
+    max-height: 98vh !important;
+    width: 37vw !important;
+    border-radius: 15px;
+}
+
+ion-popover#popover-bottom5::part(content) {
+    border-radius: 10px;
+    width: 20%;
+    height: 60%;
+    top: 20%;
+    justify-content: center;
+    display: flex;
+}
+
+ion-popover#ClientOfferRPPopover::part(content) {
+    border-radius: 16px;
+    height: 260px;
+    width: 450px;
+    background-color: #deecf7;
+
+}
+
+.NameInput2 {
+    --padding-bottom: 0px;
+    /* --padding-start:2px; */
+    --padding-top: 0px;
+    --placeholder-opacity: 0.3
+}
+
+.bonusInputRow {
+    border: 1px dashed black;
+    padding: 5px;
+    margin: 20px;
+}
+
+.BonusRPText {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+.fixing {
+    height: 20px;
+}
+
+.designation {
+    font-weight: 400;
+    font-size: 12px;
+    height: 25px;
+    margin: auto;
+
+    color: #8F8F8F;
+}
+
+/* .ClientManageHead {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 10px;
+
+
+
+} */
+
+.ClientManageHead {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+/* .ClientManageSubHead {
+    padding-top: 15px;
+} */
+
+
+.img {
+    Width: 32px;
+    Height: 32px;
+    margin-left: auto;
+}
+
+.ClientManageTab {
+    width: 70%;
+}
+
+.ClientManageTitle {
+    width: 97%;
+    height: 42px;
+    background: #deecf7;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.ClientManageContent {
+    margin: auto;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+.ClientManageRow {
+    border-bottom-color: black;
+    border-width: 10px;
+}
+
+.ClientManageDetail {
+    margin: auto;
+}
+
+.ClientManageImage {
+    /* Ellipse 118 */
+
+    width: 40px;
+    padding: auto
+}
+
+.ClientManageEdit {
+    Width: 18px;
+    Height: 25px;
+    margin-right: 20px;
+    /* margin: auto; */
+}
+
+.ClientManagePopOver {
+    height: 100vh;
+    /* height: 100vh;
+     */
+    /* padding: 50px; */
+}
+
+.SelectionStyle {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0px;
+}
+
+.fixing {
+    height: 20px;
+}
+
+.designation {
+    font-weight: 400;
+    font-size: 12px;
+    height: 25px;
+    margin: auto;
+    color: #8F8F8F;
+}
+
+.ClientManageHead {
+    font-size: 24px;
+    font-weight: 500;
+
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.ClientManageSubHead {
+    padding-top: 15px;
+}
+
+
+
+.img {
+    Width: 32px;
+    Height: 32px;
+    margin-left: auto;
+}
+
+.ClientManageTab {
+    width: 70%;
+}
+
+.ClientManageTitle {
+    width: 97%;
+    height: 42px;
+    background: #deecf7;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.ClientManageContent {
+    margin: auto;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.ClientManageRow {
+    border-bottom-color: black;
+    border-width: 10px;
+}
+
+.ClientManageDetail {
+    margin: auto;
+}
+
+.ClientManageImage {
+    width: 40px;
+    padding: auto
+}
+
+.ClientManageEdit {
+    Width: 18px;
+    Height: 25px;
+    margin-right: 20px;
+}
+
+.AdminName2 {
+    margin-top: 15px;
+}
+
+.lineSize2 {
+    width: 90%;
+    margin-top: 5px !important;
+}
+
+ion-popover#postShowPopover::part(content) {
+    width: 400px;
+    top: 150px;
+}
+
+/* .postShowPopover{
+    
+} */
+.ClientRewardsPopover2 {
+    /* Rectangle 1520 */
+    --width: 500px;
+    --height: 400px;
+
+
+    --background: #FFFDF9;
+    --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --border-radius: 30px;
+}
+
+.ClientRewardsPopover3 {
+    /* Rectangle 1520 */
+    --width: 500px;
+    --height: 500px;
+
+
+    --background: #FFFDF9;
+    --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --border-radius: 30px;
+}
+
+
+.form-parent {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-headband-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+.form-headband {
+    position: absolute;
+    z-index: 2;
+    width: 80%;
+    height: 2rem;
+    color: #FFAD1A;
+    background-color: #FFAD1A;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
+.form-box {
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    padding: 2%;
+    padding-top: 2.5rem;
+    width: 80%;
+
+    border-radius: 2rem;
+    box-shadow: 10px 71px 44px 76px #dddada;
+    object-fit: cover;
+    background-image: url("../../Assets/Images/Afleet_Bg.png");
+    /* background-color: #ffffff; */
+}
+
+@media (min-width: 1000px) {
+    .form-box {
+        position: relative;
+        z-index: 1;
+        margin: auto;
+        padding: 2%;
+        padding-top: 2.5rem;
+        width: 50%;
+
+        border-radius: 2rem;
+        box-shadow: 10px 71px 44px 76px #dddada;
+        object-fit: cover;
+        background-image: url("../../Assets/Images/Afleet_Bg.png");
+    }
+
+    .form-headband {
+        position: absolute;
+        z-index: 2;
+        width: 50%;
+        height: 2rem;
+        color: #FFAD1A;
+        background-color: #FFAD1A;
+        border-radius: 2rem 2rem 0rem 0rem;
+    }
+
+    .form-confirm {
+        width: 60%;
+        background-image: url("../../Assets/Images/Afleet_Bg.png");
+        margin-top: 0;
+        margin: auto;
+        text-align: center;
+        height: 50%;
+        padding-top: 2rem;
+        box-shadow: 10px 71px 44px 76px #dddada;
+        border-radius: 2rem;
+        /* border-radius: 1rem; */
+    }
+}
+
+.afleetLogoWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.afleetLogo {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.afleetLogo-footer {
+    margin: auto;
+    width: 20%;
+    height: 20%;
+}
+
+.react-form-builder-form .btn {
+    background-color: #ffaf1a1d;
+    transition: 0.5s;
+}
+
+.react-form-builder-form .btn:hover {
+    background-color: #ffaf1a7d;
+    transition: 0.5s;
+}
+
+.popOver-success {
+    width: 30px;
+    height: 50px;
+}
+
+.ClientGlobalForm {
+    overflow-y: scroll !important;
+
+    margin-top: 40px;
+    margin-left: 25%;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+    width: 50%;
+    height: 90%;
+    padding: 10px 20px 0px 20px;
+    background: #d9d9d9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px
+}
+
+.ClientGlobalForm::-webkit-scrollbar {
+    /* border-radius: 30px; */
+    display: none;
+    /*Safari and Chrome*/
+}
+
+
+.NameInputz {
+    --padding-bottom: 0px;
+    /* --padding-start:2px; */
+    --padding-top: 5px;
+    --placeholder-font-weight: 400;
+}
+
+.borderset {
+    margin-top: 20px;
+    height: 80px;
+    border-style: dashed;
+    border-color: rgb(139, 120, 120) !important;
+}
+
+.buttonPopover {
+    display: flex;
+    justify-content: center;
+}
+
+.ClientManageButton {
+    margin-right: 5%;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2E77AE;
+    --border-color: #2E77AE;
+    --background-color: #2E77AE;
+    width: auto;
+}
+
+.ClientManageButton2 {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2E77AE;
+    --border-color: #2E77AE;
+    --background-color: #2E77AE;
+    width: auto;
+}
+
+.ClientRewardsButton3 {
+    --background: #2E77AE;
+    --border-color: rgba(252, 202, 128, 0.5);
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.ClientRewardsButton4 {
+    --background: #2E77AE;
+    --border-color: rgba(252, 202, 128, 0.5);
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    width: 40%;
+    margin-right: 20px;
+    --border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+
+.ClientRewardsButton7 {
+    width: 123px;
+    height: 44px;
+
+    padding: 0px !important;
+    --background: #2E77AE;
+    --border-radius: 5px;
+
+    color: #FFFFFF;
+
+    margin-top: 20px;
+}
+
+.popHead {
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.popHead2 {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.popPersonImage {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border: 5px solid #d8eeff;
+    margin-left: 10px;
+    object-fit: cover;
+}
+
+.popPhone {
+    height: 60px;
+    margin-top: 80px;
+}
+
+.popTitle {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.popName {
+    margin-top: 10px;
+    font-weight: 550;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.popName2 {
+    font-weight: 550;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+.popName3 {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.popButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ClientRewardsEdit2 {
+    margin-left: 20px;
+    Width: 18px;
+    Height: 25px;
+}
+
+.accept-btn {
+    --ion-color-base: #E6FFED !important;
+    --ion-color-contrast: #00D752 !important;
+
+}
+
+.reject-btn {
+    --ion-color-base: #FFE3E3 !important;
+    --ion-color-contrast: #FF1F1F !important;
+}
+
+.checkbox {
+    --border-color: #FFAD1A;
+}
+
+#nav-checkbox {
+    margin-left: 1.5rem !important;
+}
+
+#nav-name {
+    text-align: left !important;
+    margin-left: 4.5rem !important;
+}
+
+#nav-email {
+    text-align: left !important;
+    margin-left: 5.5rem !important;
+}
+
+#nav-contact {
+    text-align: left !important;
+    margin-left: 5.8rem !important;
+}
+
+#nav-country {
+    text-align: left !important;
+}
+
+.response-content {
+    text-align: left !important;
+}
+
+.ClientAmbassadorManagementRow {
+    border-bottom-color: black;
+    border-width: 10px;
+}
+
+.ambassadorImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.campaignCheckbox {
+    display: flex;
+    align-items: center;
+}
+
+.campaignImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.campaignImgCol {
+    max-width: 60px;
+    min-width: 50px;
+}
+
+.campaignImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.ImageColumn {
+    margin-left: 40px !important;
+}
+
+.campaignRow {
+    background-color: #deecf7;
+    height: fit-content !important;
+    margin-bottom: 5%;
+}
+
+.campaignTitle {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.campaignDetails {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.campaignDetails:nth-child(1) {
+    font-weight: 500;
+}
+
+.campaignDetails:nth-child(2) {
+    font-weight: 500;
+    color: #8f8f8f;
+    font-size: 12px;
+}
+
+.campaignTrash {
+    display: flex;
+    align-items: center;
+}
+
+.campaignSelected {
+    margin-right: 20%;
+    font-weight: 500;
+    color: #8F8F8F;
+}
+
+.iconSize1 {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.ClientAmbassadorManagementDetail {
+    margin: auto;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.ClientCampaignContent {
+
+    margin: auto;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.ClientAmbassadorTitle {
+    width: 97%;
+    height: 42px;
+    background: #deecf7;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.ClientAmbassdorCheckBox {
+    --background-checked: #2E77AE;
+    --border-color: #343434;
+    --border-color-checked: #343434;
+}
+
+.ClientAmbassadorContent {
+    margin: auto;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.form-confirm {
+    width: 80%;
+    background-image: url("../../Assets/Images/Afleet_Bg.png");
+    margin-top: 0;
+    margin: auto;
+    text-align: center;
+    height: 50%;
+    padding-top: 2rem;
+    box-shadow: 10px 71px 44px 76px #dddada;
+    border-radius: 2rem;
+    /* border-radius: 1rem; */
+}
+
+
+
+.form-confirm ion-label {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.form-confirm p {
+    margin-top: 4rem;
+    background-color: #f0ce91;
+    font-size: 2rem;
+}
+
+.ClientManagementButton {
+    margin-right: 5%;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2E77AE;
+    --border-color: #2E77AE;
+}
+
+.ClientManagementButton2 {
+    margin-top: 40px;
+    --background: #2E77AE;
+    --border-color: #85c0ec;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    width: 100%;
+}

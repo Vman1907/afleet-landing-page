@@ -1,0 +1,142 @@
+.settingsCard {
+  width: 100%;
+  height: 180px;
+  padding: 25px;
+  padding-top: 30px;
+  border-radius: 20px;
+}
+
+.paymentSettingsCard {
+  width: 100%;
+  height: 50%;
+  border-radius: 20px;
+}
+
+.cardPic {
+  width: 100px;
+  margin-right: 5px;
+}
+
+.paymentTitleRow {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.paymentTitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.imageAmb {
+  outline: solid;
+  outline-offset: 2px;
+  outline-color: #f4be37;
+  outline-width: 3px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+}
+
+.imageCol2 {
+  text-align: -webkit-center;
+  margin-right: 20px
+}
+
+.labelHead {
+  font-weight: 500;
+  color: #1C1C1C;
+}
+
+.ambCardIcon {
+  width: 30px;
+  height: 30px;
+  color: #f4be37;
+}
+
+.pointRow {
+  margin-top: 10px;
+}
+
+.AdminName {
+  margin-top: 25px;
+  height: 19px;
+  width: 42px;
+}
+
+.NameInput {
+  --padding-bottom: 0px;
+  /* --padding-start:2px; */
+  --padding-top: 20px;
+  --placeholder-opacity: 0.1;
+  /* border-bottom-style: groove; */
+}
+
+.NameInput1 {
+  --padding-bottom: 3px;
+  color: black;
+}
+
+
+.AdminPopTitle {
+  font-weight: 500;
+  font-size: 24px;
+  color: #161107;
+  margin-top: 20px;
+}
+
+.aboutRowSize {
+  width: 50%;
+
+}
+
+.linkCol {
+  align-self: flex-end;
+}
+
+.linkIcons {
+  color: #2E77AE;
+  background-color: #FFF6E9;
+}
+
+.editButton {
+  padding-bottom: 13px;
+  color: #2E77AE;
+}
+
+
+.dashboardNameSettings {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #161107;
+  padding-bottom: 0px;
+}
+
+.backButton {
+  color: #8F8F8F;
+  --background: none;
+}
+
+.backButton1 {
+  width: 200px;
+  margin-right: 2rem;
+  color: #8F8F8F;
+  --background: none;
+}
+
+.saveButton {
+  width: 200px;
+}
+
+.showRow {
+  margin-bottom: 20px;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.filterSelect {
+  margin-top: 3px !important;
+  width: 60%;
+}

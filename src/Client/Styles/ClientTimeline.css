@@ -1,0 +1,194 @@
+.timeline-size {
+    /* max-width: 800px; */
+    height: 90%;
+    width: 100% !important;
+    margin: none !important;
+    /* margin: 0% 0% 0% 10%; */
+    position: absolute;
+    top: 5rem;
+
+}
+
+.timelineRight {
+    max-width: 380px;
+    min-width: 350px
+}
+
+.post-delete {
+    margin-top: 2rem;
+}
+
+.wrapper,
+.box {
+    display: none;
+}
+
+.raf-link {
+    color: #0D2137 !important;
+    position: relative;
+    z-index: 300;
+}
+
+.raf-new-activities-notification {
+    position: fixed;
+    z-index: 299;
+    width: 30%;
+    margin-left: 28rem;
+}
+
+.raf-user-bar__username {
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+}
+
+.raf-activity {
+    margin-bottom: 24px;
+    margin-right: 8px;
+    /* box-shadow: inset 0 0 8px orange; */
+    padding-bottom: 2% !important;
+    /* padding: 3%; */
+    background: #F9FBFD;
+    box-shadow: 0px 1px 4px rgba(46, 119, 174, 0.2);
+    border-radius: 8px;
+}
+
+.raf-user-bar__subtitle {
+    color: #2E77AE;
+}
+
+.raf-activity__attachments {
+    margin: 8px 8px 8px 0px;
+}
+
+.raf-activity__file:hover {
+    background-color: transparent;
+}
+
+.raf-gallery {
+    margin: 8px 8px 8px 0px !important;
+}
+
+.raf-user-bar__extra {
+    font-size: 0.75rem !important;
+    font-weight: 600 !important;
+    color: #2E77AE;
+}
+
+.raf-button--primary:disabled {
+    border-radius: 8px;
+    background-color: #2E77AE;
+}
+
+.raf-button--primary {
+    width: 30%;
+    border-radius: 8px;
+    background-color: #2E77AE;
+}
+
+.raf-button--primary:hover {
+    background-color: #0D2137;
+    transition: 0.5s;
+}
+
+.raf-reaction-icon__label {
+    color: black;
+}
+
+.raf-button--primary:disabled:hover {
+    background-color: #2E77AE;
+}
+
+::-webkit-scrollbar {
+
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    margin-left: 1%;
+    background-color: rgba(169, 169, 169, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2E77AE;
+    border-radius: 1rem;
+    box-shadow: inset 0 0 2px #2E77AE;
+}
+
+.raf-comment-field .raf-textarea .raf-textarea__textarea {
+    border-radius: 5px 0 0 5px;
+
+}
+
+.raf-comment-field__group .raf-button {
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.lineForTimeline {
+    width: 100%;
+    border: 0.2px solid hsl(0deg 7% 92%);
+}
+
+.raf-activity__content {
+    padding-left: 3% !important;
+}
+
+div.raf-activity__content div {
+    padding: 0 !important;
+}
+
+.raf-comment-item__author {
+    color: #456086;
+    font-weight: 700;
+}
+
+.raf-panel-header {
+    border-bottom: none;
+    color: #2E77AE;
+    font-size: 1.2rem;
+}
+
+.raf-panel-header .raf-title,
+.raf-reaction-icon {
+    color: #2E77AE;
+}
+
+.raf-panel-content {
+    padding-top: 0 !important;
+}
+
+.raf-textarea .raf-textarea__textarea {
+    background-color: #F3FAFF;
+}
+
+/* .raf-emoji-picker__container {
+    right: 20px !important;
+    top: 25px !important;
+    left: unset !important;
+} */
+.timelineProgramCard {
+    filter: drop-shadow(0px 1px 4px rgba(46, 119, 174, 0.2));
+    border-radius: 12px;
+    background: #FCFDFE;
+    width: 90%;
+}
+
+.timelineProgramImg {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+.LatestUpdateText{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px 0px 10px 20px;
+}
+.notificationActivity{
+    padding: 10px 0px 5px 20px
+}
+.raf-button--info{
+    background-color: #2E77AE;
+}

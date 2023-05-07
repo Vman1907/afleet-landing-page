@@ -1,0 +1,7 @@
+{
+  "name": "afleet",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

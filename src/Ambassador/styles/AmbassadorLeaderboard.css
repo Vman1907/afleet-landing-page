@@ -1,0 +1,95 @@
+.SelectionStyle {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0px;
+}
+
+.fixing {
+    height: 20px;
+}
+
+.designation {
+    font-weight: 400;
+    font-size: 12px;
+    height: 25px;
+    margin: auto;
+
+    color: #8F8F8F;
+}
+
+.AmbassadorLeaderboardHead {
+    font-size: 24px;
+    font-weight: 500;
+
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.AmbassadorLeaderboardSubHead {
+    padding-top: 15px;
+}
+
+.AmbassadorLeaderboardButton {
+    margin-right: 5%;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFAD1A;
+    --border-color: #FFAD1A;
+}
+
+.img {
+    Width: 32px;
+    Height: 32px;
+    margin-left: auto;
+}
+
+.AmbassadorLeaderboardTab {
+    width: 70%;
+}
+
+.AmbassadorLeaderboardTitle {
+    width: 97%;
+    height: 42px;
+    background: #d8eeff;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.AmbassadorLeaderboardContent {
+    margin: auto;
+    font-size: 14px;
+
+    font-weight: 500;
+    text-align: left;
+
+}
+
+.AmbassadorLeaderboardRow {
+    border-bottom-color: black;
+    border-width: 10px;
+}
+
+.AmbassadorLeaderboardDetail {
+    margin: auto;
+}
+
+.AmbassadorLeaderboardImage {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+    padding: auto;
+    object-fit: cover;
+}
+
+.AmbassadorLeaderboardEdit {
+    Width: 18px;
+    Height: 25px;
+    margin-right: 20px;
+}
+
+.AmbassadorLeaderboardPopOver {
+    height: 100vh;
+}

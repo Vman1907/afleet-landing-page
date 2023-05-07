@@ -1,0 +1,135 @@
+.img {
+  width: 32px;
+  height: 32px;
+  margin-left: auto;
+}
+
+.designation {
+  font-weight: 400;
+  font-size: 12px;
+  color: #8f8f8f;
+}
+
+.AmbassadorManagementHead {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+.AmbassadorManagementSubHead {
+  padding-top: 15px;
+}
+
+.AmbassadorManagementTitle {
+  width: 97%;
+  min-height: 42px;
+  background: #fde8ca;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.AmbassadorManagementButton {
+  margin-right: 5%;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffad1a;
+  --border-color: #ffad1a;
+}
+
+.AmbassadorManagementContent {
+  margin: auto;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.AmbassadorManagementImage {
+  width: 40px;
+  padding: auto;
+}
+
+.AmbassadorManagementDetail {
+  margin: auto;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.AmbassadorManagementRow {
+  border-bottom-color: black;
+  border-width: 10px;
+}
+
+.AmbassadorManagementEdit {
+  width: 15px;
+  height: 20px;
+  margin: 12px 0px 0px 10px;
+}
+
+.line {
+  border: 0.2px solid lightgray;
+  width: 98%;
+}
+
+.AmbassdorCheckBox {
+  --background-checked: #ffad1a;
+  --border-color: #343434;
+  --border-color-checked: #343434;
+}
+
+.selectionPopover {
+  --width: 160px
+}
+
+.ambassdorManagementEdit {
+  width: 15px;
+  height: 20px;
+  margin: 4px;
+}
+
+.fit-content {
+  --width: fit-content;
+}
+
+.ambassadorScroll {
+  --height: 250px;
+  --width: max-content;
+}
+
+.ambassadorScroll #ion-react-wrapper {
+  min-width: 200px;
+}
+
+.ambassadorScroll1 {
+  --height: 200px;
+  --width: max-content;
+}
+
+.ambassadorScroll1 #ion-react-wrapper {
+  min-width: 200px;
+}
+
+.checkboxWidth {
+  max-width: 5%;
+}
+
+.actionWidth {
+  max-width: 10%;
+}
+
+.actionContentWidth {
+  max-width: 50%;
+}
+
+.width25 {
+  max-width: 15%;
+}
+
+.width15 {
+  max-width: 15%;
+}
+
+.minWidthButton {
+  min-width: 40px
+}

@@ -1,0 +1,37 @@
+ .contentPadding {
+   --padding-start: 8px;
+   --padding-end: 8px;
+   --padding-top: 20px;
+   --padding-bottom: 20px;
+ }
+
+ .labelMargin {
+   margin-right: 20px;
+ }
+
+ .programLogo {
+   height: 60px;
+   width: 60px;
+   border-radius: 100%;
+   margin-left: 40%;
+   margin-top: 10%;
+   margin-bottom: 10%;
+ }
+
+ .link {
+   color: #FFF !important;
+   background-color: #FFAD1A;
+   border-radius: 4px;
+   padding: 5px;
+
+ }
+
+ .linkCover {
+   display: flex;
+   justify-content: center;
+ }
+
+ .menuScroll {
+   overflow-y: scroll;
+   max-height: 450px;
+ }

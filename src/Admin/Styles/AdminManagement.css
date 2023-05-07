@@ -1,0 +1,200 @@
+.img {
+  width: 32px;
+  height: 32px;
+  margin-left: auto;
+}
+
+.designation {
+  font-weight: 400;
+  font-size: 12px;
+  /* margin: auto; */
+
+  color: #8f8f8f;
+}
+
+.fixing {
+  height: 20px;
+}
+
+.SelectionStyle {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  padding: 0px;
+}
+
+.AdminManagementHead {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.AdminManagementSubHead {
+  padding-top: 15px;
+}
+
+.AdminManagementTitle {
+  width: 97%;
+  height: 42px;
+  background: #d8eeff;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.AdminManagementButton {
+  margin-right: 5%;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffad1a;
+  --border-color: #ffad1a;
+}
+
+.AdminManagementContent {
+  margin: auto;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.AdminManagementImage {
+  /* Ellipse 118 */
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.AdminManagementDetail {
+  margin: auto;
+  width: 20%;
+}
+
+.AdminManagementDetailCol {
+  margin: auto;
+  width: 16.7%;
+}
+
+.AdminManagementRow {
+  border-bottom-color: black;
+  border-width: 10px;
+}
+
+.AdminManagementEdit {
+  /* width: 15px; */
+  /* height: 20px; */
+  margin: auto 11px 0px 0px;
+}
+
+.AdminManagementDelete {
+  margin: 0px -5px 0px 0px;
+}
+
+.line {
+  border: 0.2px solid lightgray;
+  width: 98%;
+}
+
+.popoverSize {
+  /* Rectangle 1520 */
+
+  position: absolute;
+  width: 500px;
+  height: 510px;
+
+  background: #fffdf9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.AdminManagementPopover {
+  /* Rectangle 1520 */
+  --width: 620px;
+  --height: 700px;
+
+  --background: #fffdf9;
+  --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --border-radius: 30px;
+
+  /* --offset-y:-100px;
+    --offset-x:auto; */
+}
+
+.NumberInput input[type=number]::-webkit-inner-spin-button,
+.NumberInput input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.AdminPopTitle {
+  font-weight: 500;
+  font-size: 24px;
+  color: #161107;
+  margin-top: 20px;
+}
+
+.AdminName {
+  margin-top: 25px;
+  height: 19px;
+  width: 42px;
+}
+
+.NameInput {
+  --padding-bottom: 0px;
+  /* --padding-start:2px; */
+  --padding-top: 20px;
+  --placeholder-opacity: 0.1
+}
+
+.iconSize {
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.AdminManagementPopoverCloseButton {
+  padding-left: 92%;
+}
+
+.lineSize {
+  width: 90%;
+}
+
+.AdminManagementButton2 {
+  margin-top: 40px;
+  --background: #2E77AE;
+  --border-color: rgba(252, 202, 128, 0.5);
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  width: 100%;
+}
+
+.radioButton {
+  padding: 0px;
+}
+
+.radioColor {
+  --color-checked: #ffad1a;
+}
+
+ion-popover.PopOverBorderRadiusAdjustment::part(content) {
+  border-radius: 20px;
+}
+
+.adminManagementGrids {
+  padding: 0px 10px 0px 20px;
+}
+
+.adminManagementPopOverGrid {
+  padding-top: 30px !important;
+  padding: 50px;
+  margin: 0px !important;
+}
+
+.ClientManagementEdit {
+  margin: 10px 0px 0px 8px;
+}

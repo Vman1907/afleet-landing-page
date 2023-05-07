@@ -1,0 +1,52 @@
+.cardRow {
+  padding: 10px;
+}
+
+.cardStyle {
+  border-radius: 20px !important;
+  border: 0.89881px solid #2E77AE;
+  width: 302px !important;
+  height: 350px !important;
+  padding: 30px !important;
+  /* margin: 10px !important; */
+  box-shadow: none
+}
+
+.cardTitleStyle {
+  /* margin-left: 10px; */
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardDescStyle {
+  /* margin-left: 10px; */
+  font-size: 0.8rem;
+  color: black;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.resourceImageStyle {
+  height: 130px;
+  width: 248px;
+  object-fit: cover
+}
+.resourceViewButton {
+  /* --background: #FFFFFF; */
+  border: 0.89881px solid #2E77AE;
+  border-radius: 125.833px;
+  color: #2E77AE;
+  width: 72.15px;
+  height: 40.18px;
+  position: absolute;
+  left: 112px;
+  bottom: 18px;
+}

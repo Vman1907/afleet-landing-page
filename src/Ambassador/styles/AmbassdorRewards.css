@@ -1,0 +1,39 @@
+.ambassdorRewardButton {
+  margin-right: 5%;
+  font-weight: 500;
+  font-size: 10px;
+  color: black;
+  --background: #FFFBF4;
+  --border-color: rgba(252, 202, 128, 0.5);
+  --border-width: 0.5px;
+  --border-radius: 10px !important;
+}
+
+.copyLinkText {
+  color: #FFAD1A;
+  font-weight: 500;
+}
+
+.AmbassdorRewardsTab {
+  text-transform: none;
+  /* color: #FFAD19 !important; */
+}
+
+.AmbassdorSegmentButton {
+  text-transform: none;
+  height: 16px;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #0D2137;
+  --color-checked: #0D2137
+}
+
+.AmbassdorRewardsHead {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

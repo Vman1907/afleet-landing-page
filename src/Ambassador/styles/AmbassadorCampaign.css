@@ -1,0 +1,234 @@
+.AmbassadorCampaignTab {
+    color: #0D2137 !important;
+}
+
+.AmbassadorCampaignButton {
+    margin-right: 5%;
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #0D2137;
+    --border-color: #FFAD1A;
+}
+
+.AmbassadorCompletedButton {
+    margin-right: 5%;
+    font-weight: 500;
+    /* border-style: solid; */
+    width: 100%;
+    color: #8F8F8F;
+    --border-color: #8F8F8F;
+    margin-top: 5%;
+}
+
+.completedButtonSegment {
+    border-color: #8F8F8F !important;
+    border: #8F8F8F !important;
+
+}
+
+.campaignCard {
+    border-radius: 20px;
+    width: 275px;
+    padding: 15px;
+}
+
+.rewardCard {
+    border-radius: 20px;
+    width: 300px;
+    padding: 10px 15px;
+}
+
+.cardRow {
+    margin-top: 10px;
+}
+
+.mpAdjust {
+    padding: 5px 0px;
+}
+
+.rewardCardHead {
+    font-size: 16;
+    color: var(--ion-color-step-850, #262626);
+}
+
+.rewardDescription {
+    height: 80px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.rewardCardButtons:hover {
+    background: #dff1ff;
+    transition: 0.5s;
+    border: 2px solid #2E77AE;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.rewardCardButtons {
+    background: white(217, 217, 217, 0.4);
+    border: 2px solid #2E77AE;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.cardPic {
+    --size: 100px;
+    --border-radius: 20px;
+}
+
+.cardPic2 {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.cardPic3 {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.cardTitle {
+    font-size: 14px;
+    padding: 5px 0px;
+}
+
+.cardSubtitle {
+    color: #8F8F8F;
+}
+
+.cardColumn {
+    padding: 0px;
+}
+
+.cardContent {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.cardButton {
+    width: 100%;
+    min-height: 36px;
+}
+
+.cardButton2 {
+    width: 70%;
+    justify-content: center;
+    min-height: 36px;
+    --border-radius: 15px;
+}
+
+.buttonTag {
+    display: flex;
+    justify-content: center;
+}
+
+.cardButtonSegment {
+    min-width: 230px;
+}
+
+.buttonCol {
+    min-width: 230px;
+    justify-content: flex-start;
+}
+
+.detailsButton {
+    color: #8F8F8F;
+}
+
+.seg {
+    margin-top: 5%;
+}
+
+ion-popover#popover-bottom4::part(content) {
+    /* left: 68% !important; */
+    height: 90vh;
+    max-height: 90vh !important;
+    border-radius: 10px;
+    width: 500px;
+    max-width: 90%;
+    color: "#FFFDF9"
+}
+
+@media (min-width: 800px) {
+    ion-popover#popover-bottom4::part(content) {
+        left: 68% !important;
+        height: 90vh;
+        max-height: 90vh !important;
+        border-radius: 10px;
+        width: 30vw;
+        min-width: 250px;
+        color: "#FFFDF9"
+    }
+}
+
+.setCross1 {
+    cursor: pointer;
+
+}
+
+.taskContain {
+    margin: 0px 34px !important;
+}
+
+.urlBox {
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+    padding: 7px 5px;
+}
+
+.taskHeading {
+    /* align-items: center; */
+    width: fit-content;
+}
+
+.taskTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardPic1 {
+    --border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.taskViewSubtitle {
+    color: #8F8F8F;
+    font-size: 0.8rem;
+}
+
+.taskViewTitle {
+    padding-left: 0px;
+}
+
+.rewardTitleWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rewardDetails {
+    color: #8F8F8F;
+}
+
+.taskGrid {
+    margin-top: 10px;
+}
+
+.cardButton1 {
+    width: 80%;
+    min-height: 36px;
+}

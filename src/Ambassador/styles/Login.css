@@ -1,0 +1,84 @@
+.outerBox {
+  display: flex;
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.LoginBox {
+  background: #f6f6fb;
+  border-radius: 8px;
+  padding: 30px;
+}
+.LoginTitle {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: left;
+  color: black;
+  padding-left: 0 !important;
+  padding-bottom: 10px;
+}
+.LoginContent {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+.LoginEmail {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  padding-top: 20px;
+}
+.LoginInput {
+  background: #ffffff;
+  border: 1px solid #8692a6;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.LoginButton {
+  margin-top: 30px;
+  width: 100%;
+}
+.LoginLabel {
+  display: block;
+  margin: auto;
+}
+.spin {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+  height: 10%;
+  stroke: #444;
+  fill: #222;
+}
+.imageUploadSpin {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  stroke: 
+  #FFAD1A;
+  fill: 
+  #FFAD1A;
+}
+.backgroundClass {
+  background: linear-gradient(
+    138.9deg,
+    rgba(255, 255, 255, 0.12) 3.4%,
+    rgba(254, 248, 243, 0.2) 96.66%
+  );
+  border: 0.75px solid rgba(252, 202, 128, 0.3);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+  filter: blur(20px);
+  backdrop-filter: blur(47px);
+  border-radius: 20px;
+  z-index: -1;
+}
+.forgotPasswordButton2{
+  margin-top:5px;
+  color:#2E77AE;
+  margin-left: 53%;
+}
