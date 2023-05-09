@@ -1,10 +1,23 @@
-import { IonApp, IonButton, IonGrid, IonIcon, IonPopover, IonRouterOutlet, IonRow, IonSegment, IonSplitPane } from "@ionic/react";
+import {
+  IonApp,
+  IonButton,
+  IonGrid,
+  IonIcon,
+  IonPopover,
+  IonRouterOutlet,
+  IonRow,
+  IonSegment,
+  IonSplitPane,
+} from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import { useState, useEffect } from "react";
 import { Route, Redirect, useParams } from "react-router";
 import Loading from "../Components/Loading";
 import Menu from "../Components/Menu";
-import { clientLoginMetadataExpiry, clientLoginMetadataKey } from "../Constants/ClientStorageConstants";
+import {
+  clientLoginMetadataExpiry,
+  clientLoginMetadataKey,
+} from "../Constants/ClientStorageConstants";
 import { LoginMetadata } from "../Models/LoginMetadata";
 import { StorageService } from "../Services/StorageService";
 import Login from "./Login";
@@ -14,6 +27,7 @@ import { close } from "ionicons/icons";
 import { Link } from "react-router-dom";
 import ClientError from "./ClientError";
 import NotFound from "../../404";
+import Signup from "./Signup";
 
 const ClientMain: React.FC = () => {
   const [loginMetadata, setLoginMetadata] = useState(new LoginMetadata("-1"));
@@ -23,21 +37,26 @@ const ClientMain: React.FC = () => {
   const [leaderboard, setLeaderboard] = useState(false);
 
   let setLoginData = async (resp: any) => {
-    // debugger; 
+    // debugger;
     setLoginMetadata(resp);
-    await StorageService.Set(clientLoginMetadataKey, resp, clientLoginMetadataExpiry);
-
+    await StorageService.Set(
+      clientLoginMetadataKey,
+      resp,
+      clientLoginMetadataExpiry
+    );
   };
 
   useEffect(() => {
     setShowLoading(true);
-    StorageService.Get(clientLoginMetadataKey).then((resp) => {
-      if (resp != null) setLoginMetadata(resp);
-      console.log(loginMetadata);
-      setShowLoading(false);
-    }).catch(() => {
-      setShowLoading(false);
-    });
+    StorageService.Get(clientLoginMetadataKey)
+      .then((resp) => {
+        if (resp != null) setLoginMetadata(resp);
+        console.log(loginMetadata);
+        setShowLoading(false);
+      })
+      .catch(() => {
+        setShowLoading(false);
+      });
     console.log("hello");
   }, []);
   if (showLoading) {
@@ -59,7 +78,6 @@ const ClientMain: React.FC = () => {
         <IonGrid class="programManagementPopOverGrid">
           <IonRow class="ClientRewardsPopoverCloseButton">
             <Link to="/user">
-
               <IonIcon
                 md={close}
                 class="iconSize"
@@ -74,7 +92,8 @@ const ClientMain: React.FC = () => {
             You do have any Active Programs, Contact Admin!!
           </IonSegment>
           <IonSegment mode="md">
-            <IonButton routerLink="/user"
+            <IonButton
+              routerLink="/user"
               onClick={() => setShowNoProgram(false)}
             >
               Cancel
@@ -83,7 +102,7 @@ const ClientMain: React.FC = () => {
         </IonGrid>
       </IonPopover>
       {loginMetadata.tokenString != "-1" && loginMetadata.clientId != -1 ? (
-        <IonSplitPane contentId="main" class='backgroundImage'>
+        <IonSplitPane contentId="main" class="backgroundImage">
           <Menu
             timeline={timeline}
             leaderboard={leaderboard}
@@ -92,7 +111,10 @@ const ClientMain: React.FC = () => {
           />
           <IonRouterOutlet id="main">
             <Route path="/:name" exact={true}>
-              <Page loginMetadata={loginMetadata} loginfunction={setLoginData} setShowNoProgram={setShowNoProgram}
+              <Page
+                loginMetadata={loginMetadata}
+                loginfunction={setLoginData}
+                setShowNoProgram={setShowNoProgram}
                 setTimeline={setTimeline}
                 setLeaderboard={setLeaderboard}
               />
@@ -101,7 +123,10 @@ const ClientMain: React.FC = () => {
               <Redirect to="/userdashboard" />
             </Route>
             <Route path="/:name/:name2" exact={true}>
-              <ClientError loginMetadata={loginMetadata} loginfunction={setLoginData} />
+              <ClientError
+                loginMetadata={loginMetadata}
+                loginfunction={setLoginData}
+              />
             </Route>
             <Route path="/user/login" exact={true}>
               <Redirect to="/userdashboard" />

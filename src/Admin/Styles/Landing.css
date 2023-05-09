@@ -1,4 +1,4 @@
-.home-container{
+body{
     overflow-x: hidden;
 }
 
@@ -10,6 +10,7 @@
 .intro .col-lg-5:nth-child(2){
     display: flex;
     justify-content: end;
+    position: relative;
 }
 
 .intro{
@@ -72,6 +73,17 @@
     gap: 0.5rem;
 }
 
+.intro .watch-button{
+    position: absolute;
+    bottom: 20%;
+    left: 300px;
+}
+
+.video-popover{
+    --width: 600px;
+    --height: 400px;
+}
+
 .primary{
     color: #2E77AE;
 }
@@ -89,19 +101,25 @@
 
 .ad-platform .ad-company-container{
     height: 450px;
-    background-color: #ddd;
+    background-color: #dddddd23;
     padding: 2rem 4rem;
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
 }
 
 .ad-platform .ad-company-container .company-container{
     padding: 0.5rem;
-    height: fit-content;
+    height: 65px;
+    width: 65px;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.151);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
 }
 
 .ad-platform .ad-company-container .company-container img{
@@ -111,7 +129,7 @@
 .ad-platform .ad-company-container-filter{
     width: 100vw;
     height: 450px;
-    background-image: linear-gradient(#ffffff00, #ffffff9f);
+    background-image: linear-gradient(#ffffff00, #ffffffde);
     position: absolute;
     display: flex;
     align-items: flex-end;
@@ -250,6 +268,388 @@ margin: 2rem auto;
 padding: 1rem 2rem;
 }
 
+.community-container{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.community-container .heading{
+    color: #2E77AE;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.community-container .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.community-container .content .text-content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 400px;
+    padding: 0 1rem;
+}
+
+.community-container .content .text-content .text-heading{
+    font-size: 1.5rem;
+    color: #0D2137;
+}
+
+.community-container .content .text-content span:nth-child(3){
+    margin-top: 1rem;
+    color: #456086;
+}
+
+.community-container .content:nth-child(3){
+    flex-direction: row-reverse;
+}
+
+.community-container .image-content img{
+    max-width: 450px;
+    width: 70vw;
+}
+
+.pricing-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 300px;
+    margin-top: 3rem;
+}
+
+.pricing-container .heading-container{
+    gap: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F8FF;
+    text-align: center;
+    padding: 100px 0 150px;
+}
+
+.pricing-container .heading-container span:nth-child(1){
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0D2137;
+}
+
+.pricing-container .heading-container span:nth-child(2){
+    font-weight: 600;
+    color: #0D2137;
+}
+.pricing-container  .price-wrapper{
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0px 8.88889px 8.88889px -4.44444px rgba(0, 0, 0, 0.04);
+border-radius: 10.6667px;
+width: fit-content;
+align-self: center;
+gap: 3rem;
+overflow: hidden;
+position: absolute;
+top: 300px;
+max-width: 900px;
+width: 90vw;
+}
+
+.pricing-container .price-wrapper .price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #e0eaf550;
+    padding: 1rem 3rem;
+}
+
+.pricing-container .price span:nth-child(1){
+    font-size: 1.25rem;
+    color: #171923;
+    font-weight: 600;
+}
+
+.pricing-container .price span:nth-child(2){
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pricing-container .price span:nth-child(3)
+{
+    color: #171923;
+}
+
+.pricing-container .price button{
+    background-color: #2E77AE;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    font-size: 0.6rem;
+}
+
+.pricing-container .services{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.pricing-container .services>span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pricing-container .services>span:nth-child(1){
+    margin-bottom: 1.5rem;
+}
+
+.pricing-container .list-dot{
+    border-radius: 100px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #2E77AE;
+    resize: none;
+}
+
+.pricing-container .service-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    gap: 3rem;
+}
+
+.pricing-container .service-info div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+}
+
+.FAQ-container {
+    margin: 0 0 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FAQ-container .heading{
+    font-size: 2rem;
+    color: #2E77AE;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+.faq-section {
+    font-family: "Poppins", sans-serif;
+    padding: 60px 0;
+    text-align: center;
+    background-position: bottom right 0%;
+    display: none;
+   }
+   
+   .faq-section .faq_left_half_circle {
+    position: absolute;
+    left: 80px;
+   }
+   
+   .faq-section .faq_left_half_circle img {
+    position: relative;
+    top: 140px;
+   }
+   
+   .faq-section .faq-accordions {
+    max-width: 760px;
+    margin: 0 auto;
+   }
+   
+   .faq-section .faq-accordions .accordion-row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #3566ac;
+    cursor: pointer;
+   }
+   
+   .faq-section .faq-accordions .accordion-row .title {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    padding-right: 30px;
+   }
+   
+   .faq-section .faq-accordions .title:after {
+    content: '';
+    position: absolute;
+    border-left: #fff 2px solid;
+    border-bottom: #fff 2px solid;
+    right: 10px;
+    top: 8px;
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    width: 10px;
+    height: 10px;
+    z-index: 1;
+    transform: rotate(-45deg);
+   }
+   
+   .faq-section .faq-accordions .title.open:after {
+    transform: rotate(135deg);
+    top: 14px;
+   }
+   
+   .faq-section .faq-accordions .accordion-row .content {
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 30px;
+    overflow: hidden;
+    height: 0px;
+    transition: 0.5s all;
+   }
+   
+   .faq-section .faq-accordions .accordion-row .open + .content {
+    height: auto;
+    overflow: initial;
+    padding: 20px 0px;
+   }
+
+
+.grid {
+ list-style: none;
+ margin-left: -40px;
+}
+
+.gc {
+ box-sizing: border-box;
+ display: inline-block;
+ margin-right: -.25em;
+ min-height: 1px;
+ vertical-align: top;
+}
+
+.gc--1-of-3 {
+ width: 45%;
+}
+
+.gc--2-of-3 {
+ width: 55%;
+}
+
+.naccs {
+ position: relative;
+ max-width: 1200px;
+ width: 90vw;
+ margin: 100px auto 0;
+}
+
+.naccs .menu div {
+ padding: 15px 20px 15px 40px;
+ color: #000000;
+ background: #fff ;
+ cursor: pointer;
+ position: relative;
+ vertical-align: middle;
+ font-weight: 700;
+ transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.naccs .menu div:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.naccs .menu div span.light {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 24px;
+    left: 15px;
+    background-color: transparent;
+    border-radius: 100%;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: 1px solid #2E77AE;
+}
+
+.naccs .menu div.active span.light {
+    /* background-color: #FBC02D; */
+    /* left: 0; */
+    /* height: 100%; */
+    /* width: 3px; */
+    /* top: 0; */
+    /* border-radius: 1; */
+    background-color: #2E77AE;
+}
+
+.naccs .menu div span.arrow{
+    position: absolute;
+    right: 10px;
+    color: #2E77AE;
+
+}
+
+.naccs .menu div.active {
+    z-index: 3;
+    background-color: #E0EAF5;
+    border-radius: 10px 0 0 10px;
+}
+
+ul.nacc {
+ /* position: relative; */
+ height: 0px;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ transition: .5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+ margin-left: -20px;
+}
+
+ul.nacc li {
+ /* opacity: 0; */
+ /* transform: translateX(50px); */
+ position: absolute;
+ list-style: none;
+ background-color: #E0EAF5;
+ padding: 3rem;
+ height: 100%;
+ transform: scale(1.2);
+ vertical-align: middle;
+ margin-left: 3rem;
+ border-radius: 20px;
+}
+
+ul.nacc li.active {
+    z-index: 2;
+    opacity: 1;
+    padding: 3rem;
+}
+
+ul.nacc li p {
+    transition-delay: .3s;
+    margin: 0;
+    opacity: 0;
+    font-size: 0.8rem;
+}
+
+ul.nacc p.active{
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    opacity: 1;
+}
+
+ul.nacc li div{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
 @media screen  and (max-width: 1160px){
     .intro-heading {
         font-size: 2rem;
@@ -286,5 +686,67 @@ padding: 1rem 2rem;
 
     .quotes-container{
         padding: 3rem 2rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .community-container .content{
+        flex-direction: column-reverse!important;
+        align-items: center;
+    }
+
+    .community-container .content .text-content{
+        text-align: center;
+    }
+
+    .pricing-container .price-wrapper{
+        flex-direction: column;
+    }
+
+    .pricing-container {
+        padding-bottom: 500px;
+    }
+
+    .pricing-container .heading-container{
+        padding: 50px 0 100px;
+    }
+
+    .pricing-container .heading-container span:nth-child(1){
+        font-size: 2rem;
+    }
+
+    .pricing-container  .price-wrapper{
+        top: 220px;
+    }
+
+    .pricing-container .service-info{
+        top: 450px;
+    }
+
+    .naccs{
+        display: none;
+    }
+
+    .faq-section{
+        display: block;
+        padding: 1rem;
+    }
+
+    .faq-section .faq-accordions .accordion-row .title{
+        font-size: 1rem;
+    }
+
+    .faq-section .faq-accordions .accordion-row .content{
+        font-size: 0.75rem;
+        line-height: 1.5;
+    }
+
+    .ad-platform .ad-company-container .company-container{
+        height: 60px;
+        width: 60px;
+    }
+
+    .ad-platform .heading{
+        font-size: 1.5rem;
     }
 }

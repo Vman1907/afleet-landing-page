@@ -1,0 +1,131 @@
+.footer{
+    background-color: #E0EAF5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.footer .header{
+    display: flex;
+    flex-direction: row;
+    background-color: #2E77AE;
+    max-width: fit-content;
+    padding: 1rem;
+    border-radius: 20px;
+    gap:2rem;
+    align-items: center;
+    position: relative;
+    bottom: 3rem;
+    width: 80vw;
+}
+
+.footer .header .text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#fff
+}
+
+.footer .header .text-content span:nth-child(1){
+    font-size: 1rem;
+}
+
+.footer .header .text-content span:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.footer .start-btn{
+    background-color: #fff;
+    border-radius: 10px;
+    color: #0D2137;
+    padding: 0.75rem 2rem;
+    font-size: 0.75rem;
+    height: fit-content;
+    font-weight: 500;
+}
+
+.footer .content{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.footer .content .caption{
+    display:flex;
+    flex-direction: column;
+}
+
+.footer .content .caption span:nth-child(1), .footer .content .caption span:nth-child(2){
+    font-size: 1.5rem;
+    color: #2E77AE;
+    font-weight: 600;
+}
+
+.footer .content .caption span:nth-child(3){
+    margin: 2rem 0;
+}
+
+.footer .content .caption span:nth-child(6){
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.footer .content .links-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .content .links-wrapper .links-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .content .links-wrapper .links-container{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    gap: 1rem;
+}
+
+.footer .content .links-wrapper .links-container .links-heading{
+    color: #2E77AE;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 992px){
+    .footer .header{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer .header .text-content span:nth-child(2){
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    .footer .content{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer .content .caption span:nth-child(6){
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .footer .content .links-wrapper{
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+
+    .footer .content .links-heading{
+        margin-top: 3rem;
+        margin-bottom: 1rem!important;
+    }
+}
