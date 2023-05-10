@@ -141,9 +141,13 @@ const ClientMain: React.FC = () => {
           </Route>
           <Route path="/:page" exact={true}>
             <NotFound />
+            {console.log("hello")}
           </Route>
           <Route path="/user" exact={true}>
             <Login loginfunction={setLoginData} />
+          </Route>
+          <Route path="/user/signup" exact={true}>
+            <Signup />
           </Route>
         </IonRouterOutlet>
       )}

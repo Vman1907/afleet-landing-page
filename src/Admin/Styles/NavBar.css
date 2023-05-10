@@ -39,6 +39,11 @@
     gap: 1.5rem;
 }
 
+.side-navbar-links span:nth-child(1){
+    align-self: flex-end;
+    margin: 30px;
+}
+
 .side-navbar-links a{
     color: #000;
     font-size: 1.5rem;

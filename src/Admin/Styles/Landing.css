@@ -18,6 +18,7 @@ body{
     align-items: center;
     display: flex;
     overflow-x: hidden;
+    margin: 100px 0;
 }
 
 .intro-heading{
@@ -44,6 +45,7 @@ body{
     color: #fff;
     border-radius: 15px;
     padding: 0.5rem 0.7rem;
+    scroll-behavior: smooth;
 }
 
 .intro-links .learn-more{
@@ -51,6 +53,16 @@ body{
     border: none;
     margin-left: 2rem;
     color: #0D2137;
+}
+
+.intro-links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.intro-links .get-started{
+    padding: 0.5rem 2rem;
 }
 
 .intro-companies{
@@ -80,8 +92,19 @@ body{
 }
 
 .video-popover{
-    --width: 600px;
-    --height: 400px;
+    --width: 560px;
+    --height: 315px;
+    /* position: relative; */
+}
+
+.video-popover iframe{
+    width: 100%;
+    height: 100%;
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
 }
 
 .primary{
@@ -132,12 +155,19 @@ body{
     background-image: linear-gradient(#ffffff00, #ffffffde);
     position: absolute;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
     padding-bottom: 100px;
     font-size: 1.25rem;
     color:  #456086;
     font-weight: 500    ;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ad-platform .ad-company-container-filter a{
+    color:  #456086;
+    text-decoration: none;
 }
 
 .information{
@@ -225,7 +255,7 @@ body{
 }
 
 .usage-container .usage-info-wrapper{
-    padding: 0 3rem;
+    padding: 0 1.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -243,12 +273,19 @@ body{
     display: flex;
     flex-direction: column;
     padding: 1rem 2rem;
-    width: 300px;
+    width: 350px;
 }
 
-.usage-container .usage-info-card span:nth-child(1){
+.usage-container .usage-info-card>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.usage-container .usage-info-card>div>span:nth-child(2){
     margin: 1rem 0;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     color:#3B3B3B;
     font-weight: 600;
 }
@@ -265,7 +302,12 @@ box-shadow: 0px 1px 0px rgba(19, 20, 22, 0.08);
 border-radius: 6px;
 width: fit-content;
 margin: 2rem auto;
-padding: 1rem 2rem;
+padding: 0.75rem 2.25rem;
+}
+
+.usage-container .try-afleet-button a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .community-container{
@@ -387,9 +429,11 @@ width: 90vw;
     background-color: #2E77AE;
     color: #fff;
     border-radius: 10px;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
     margin-top: 1rem;
-    font-size: 0.6rem;
+    font-size: 0.75rem;
+    width: 100%;
+    max-width: 150px;
 }
 
 .pricing-container .services{
@@ -561,6 +605,7 @@ width: 90vw;
  vertical-align: middle;
  font-weight: 700;
  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+ z-index: 10;
 }
 
 .naccs .menu div:hover {
@@ -748,5 +793,10 @@ ul.nacc li div{
 
     .ad-platform .heading{
         font-size: 1.5rem;
+    }
+
+    .video-popover{
+        --height: 202.5px;
+        --width: 360px;
     }
 }

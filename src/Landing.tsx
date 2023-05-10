@@ -10,7 +10,6 @@ import card1 from "./../src/Assets/Images/home-card.svg";
 import card2 from "./../src/Assets/Images/home-card-2.svg";
 import card3 from "./../src/Assets/Images/home-card-3.svg";
 
-import instagram from "../src/Assets/Images/instagram.svg";
 import ad from "../src/Assets/Images/IMAGE-10.svg";
 import ad1 from "../src/Assets/Images/IMAGE-11.svg";
 import ad2 from "../src/Assets/Images/IMAGE-12.svg";
@@ -40,7 +39,6 @@ import ad25 from "../src/Assets/Images/IMAGE.svg";
 import ad26 from "../src/Assets/Images/IMAGE-1.svg";
 import ad27 from "../src/Assets/Images/IMAGE-2.svg";
 import ad28 from "../src/Assets/Images/IMAGE-3.svg";
-// import ad29 from "../src/Assets/Images/IMAGE-4.svg";
 import ad30 from "../src/Assets/Images/IMAGE-5.svg";
 import ad31 from "../src/Assets/Images/IMAGE-6.svg";
 import ad32 from "../src/Assets/Images/IMAGE-7.svg";
@@ -61,14 +59,29 @@ import servicePic3 from "../src/Assets/Images/service-image-3.svg";
 
 import logo from "./Assets/Images/logo_3.png";
 
+import usage1 from "../src/Assets/Images/Vector-12.svg";
+import reddit from "../src/Assets/Images/reddit.svg";
+import discord from "../src/Assets/Images/Vector-10.svg";
+import twitter from "../src/Assets/Images/Vector-11.svg";
+import quora from "../src/Assets/Images/quora.svg";
+import ambassador from "../src/Assets/Images/Vector-13.svg";
+import community from "../src/Assets/Images/Vector-14.svg";
+import product from "../src/Assets/Images/product.svg";
+
 import { IonContent, IonPage, IonPopover } from "@ionic/react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import { useState } from "react";
+import { Redirect } from "react-router";
 
 const Landing: React.FC = () => {
   const [faq, setFaq] = useState(0);
   const [video, setVideo] = useState(false);
+  const [signup, setSignup] = useState(false);
+
+  if (signup === true) {
+    return <Redirect to="user/signup"></Redirect>;
+  }
 
   return (
     <IonPage>
@@ -95,7 +108,9 @@ const Landing: React.FC = () => {
                 <span>and unlock ultimate organic growth for your brand</span>
               </div>
               <div className="intro-links">
-                <button className="get-started">Get Started</button>
+                <button className="get-started">
+                  <a href="#pricing">Get Started</a>
+                </button>
                 {/* <button className="learn-more">Learn More</button> */}
               </div>
               <div className="intro-companies">
@@ -139,9 +154,33 @@ const Landing: React.FC = () => {
               <span>
                 .......and thousands of others available through Zapier
               </span>
+              <span>
+                <a href="https://afleet.io/integrations">Learn More</a>
+              </span>
             </div>
 
             <div className="ad-company-container">
+              <span className="company-container">
+                <img src={ad27} alt="" />
+              </span>
+              <span className="company-container">
+                <img src={ad28} alt="" />
+              </span>
+              <span className="company-container">
+                <img src={ad30} alt="" />
+              </span>
+              <span className="company-container">
+                <img src={ad31} alt="" />
+              </span>
+              <span className="company-container">
+                <img src={ad32} alt="" />
+              </span>
+              <span className="company-container">
+                <img src={ad33} alt="" />
+              </span>
+              <span className="company-container">
+                <img src={ad34} alt="" />
+              </span>
               <span className="company-container">
                 <img src={ad} alt="" />
               </span>
@@ -222,30 +261,6 @@ const Landing: React.FC = () => {
               </span>
               <span className="company-container">
                 <img src={ad26} alt="" />
-              </span>
-              <span className="company-container">
-                <img src={ad27} alt="" />
-              </span>
-              <span className="company-container">
-                <img src={ad28} alt="" />
-              </span>
-              {/* <span className="company-container">
-                <img src={ad29} alt="" />
-              </span> */}
-              <span className="company-container">
-                <img src={ad30} alt="" />
-              </span>
-              <span className="company-container">
-                <img src={ad31} alt="" />
-              </span>
-              <span className="company-container">
-                <img src={ad32} alt="" />
-              </span>
-              <span className="company-container">
-                <img src={ad33} alt="" />
-              </span>
-              <span className="company-container">
-                <img src={ad34} alt="" />
               </span>
             </div>
           </div>
@@ -347,21 +362,30 @@ const Landing: React.FC = () => {
             </span>
             <div className="usage-info-wrapper">
               <div className="usage-info-card">
-                <span>Reddit marketing</span>
+                <div>
+                  <img src={reddit} alt="" />
+                  <span>Reddit marketing</span>
+                </div>
                 <span>
                   Promote your products and services in niche sub-Reddits and
                   show-up before thousands of high quality potential users
                 </span>
               </div>
               <div className="usage-info-card">
-                <span>Discord marketing</span>
+                <div>
+                  <img src={discord} alt="" />
+                  <span>Discord marketing</span>
+                </div>
                 <span>
                   Promote your products on Discord by partnering up with niche
                   discord servers and track the performance
                 </span>
               </div>
               <div className="usage-info-card">
-                <span>Twitter marketing</span>
+                <div>
+                  <img src={twitter} alt="" />
+                  <span>Twitter marketing</span>
+                </div>
                 <span>
                   Unlock organic growth and engagement on Twitter by leveraging
                   user generated content and reach more people without running
@@ -369,14 +393,22 @@ const Landing: React.FC = () => {
                 </span>
               </div>
               <div className="usage-info-card">
-                <span>Quora marketing</span>
+                <div>
+                  <img src={quora} alt="" />
+                  <span>Quora marketing</span>
+                </div>
                 <span>
                   Leverage Quora to get the word out about your products and get
                   seen by high quality audience and grow on search rankings
                 </span>
               </div>
               <div className="usage-info-card">
-                <span>Social Media marketing</span>
+                <div>
+                  <span>
+                    <img src={usage1} alt="" />
+                  </span>
+                  <span>Social Media marketing</span>
+                </div>
                 <span>
                   Tap on to social media platforms like Instagram and YouTube to
                   give you more visibility through user generated content
@@ -384,14 +416,20 @@ const Landing: React.FC = () => {
                 </span>
               </div>
               <div className="usage-info-card">
-                <span>Ambassador marketing</span>
+                <div>
+                  <img src={ambassador} alt="" />
+                  <span>Ambassador marketing</span>
+                </div>
                 <span>
                   Turn customers into your loyal brand ambassadors and boost
                   authentic reviews, testimonials and Buzz through them
                 </span>
               </div>
               <div className="usage-info-card">
-                <span>Community Building</span>
+                <div>
+                  <img src={community} alt="" />
+                  <span>Community Building</span>
+                </div>
                 <span>
                   Increase customer value and experience by creating customer
                   communities. We gamify the entire experience so your customers
@@ -399,7 +437,10 @@ const Landing: React.FC = () => {
                 </span>
               </div>
               <div className="usage-info-card">
-                <span>Product marketing</span>
+                <div>
+                  <img src={product} alt="" />
+                  <span>Product marketing</span>
+                </div>
                 <span>
                   Ranking on product hunt is easy. Hard is to maintain the
                   momentum for long term. Create a 360 degree momentum for
@@ -407,7 +448,9 @@ const Landing: React.FC = () => {
                 </span>
               </div>
             </div>
-            <button className="try-afleet-button">Try Afleet Today</button>
+            <button className="try-afleet-button">
+              <a href="#pricing">Try Afleet Today</a>
+            </button>
           </div>
           <div className="community-container">
             <span className="heading">
@@ -452,7 +495,7 @@ const Landing: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="pricing-container">
+          <div id="pricing" className="pricing-container">
             <div className="heading-container">
               <span className="">Simple pricing for your business</span>
               <span>
@@ -464,7 +507,13 @@ const Landing: React.FC = () => {
                 <span>Premium PRO</span>
                 <span>$329</span>
                 <span>billed just once</span>
-                <button>Get Started</button>
+                <button
+                  onClick={() => {
+                    setSignup(true);
+                  }}
+                >
+                  Get Started
+                </button>
               </div>
               <div className="services">
                 <span>
@@ -674,9 +723,7 @@ const Landing: React.FC = () => {
             class="video-popover"
           >
             <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/hzL27Au7CjU"
+              src="https://www.youtube.com/embed/O681T2-qyBo"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             ></iframe>

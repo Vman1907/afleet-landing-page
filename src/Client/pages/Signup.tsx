@@ -13,15 +13,21 @@ import { useState } from "react";
 
 import "../../Admin/Styles/Signup.css";
 import Footer from "../../Footer";
+import { Redirect } from "react-router";
 
 const Signup = () => {
   const [name, setName] = useState<string | null | undefined>("");
   const [email, setEmail] = useState<string | null | undefined>("");
   const [password, setPassword] = useState<string | null | undefined>("");
+  const [signin, setSignin] = useState(false);
 
   const handleClick = (e: any) => {
     e.preventDefault();
   };
+
+  if (signin === true) {
+    return <Redirect to="/user/login"></Redirect>;
+  }
 
   return (
     <IonPage>
@@ -85,7 +91,14 @@ const Signup = () => {
               </form>
               <IonItem class="hr-line"></IonItem>
               <div className="line-text">or</div>
-              <IonButton class="signin-button">Sign In</IonButton>
+              <IonButton
+                onClick={() => {
+                  setSignin(true);
+                }}
+                class="signin-button"
+              >
+                Sign In
+              </IonButton>
             </IonCol>
           </IonRow>
         </IonGrid>

@@ -64,6 +64,9 @@ const App: React.FC = () => {
             {/* <Signup /> */}
             <Landing />
           </Route>
+          <Route path="/user/signup" exact={true}>
+            <Signup />
+          </Route>
         </IonRouterOutlet>
       </IonReactRouter>
     </IonApp>

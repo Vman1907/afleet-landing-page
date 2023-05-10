@@ -1,4 +1,11 @@
-import { IonApp, IonContent, IonPage, IonRouterOutlet, IonSegment, IonSplitPane } from "@ionic/react";
+import {
+  IonApp,
+  IonContent,
+  IonPage,
+  IonRouterOutlet,
+  IonSegment,
+  IonSplitPane,
+} from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import { useState, useEffect, createContext } from "react";
 import { Route, Redirect, useParams, useRouteMatch } from "react-router";
@@ -14,7 +21,12 @@ const Main: React.FC = () => {
   const { page } = useParams<{ page: string }>();
   console.log(useRouteMatch());
   let route = sessionStorage.getItem("page");
-  if (route == null || page === 'ambassador' || page === 'user' || page === 'admin') {
+  if (
+    route == null ||
+    page === "ambassador" ||
+    page === "user" ||
+    page === "admin"
+  ) {
     sessionStorage.setItem("page", page);
     route = page;
   }
@@ -40,14 +52,13 @@ const Main: React.FC = () => {
         </IonRouterOutlet>
       </IonReactRouter>
     );
-  else if (route === 'user')
+  else if (route === "user")
     return (
       <IonReactRouter>
         <IonRouterOutlet>
           <Route path="/" exact={false}>
             <ClientMain />
           </Route>
-
         </IonRouterOutlet>
       </IonReactRouter>
     );
@@ -60,14 +71,13 @@ const Main: React.FC = () => {
   //           </Route>
   //         </IonRouterOutlet>
   //       </IonReactRouter>
-
   //     );
   else
     return (
       <IonPage>
         <IonContent>
           <IonSegment mode="md" style={{ marginTop: 50 }}>
-            Invalid URL
+            Invalid URL{console.log("httyy")}
           </IonSegment>
         </IonContent>
       </IonPage>

@@ -5,9 +5,11 @@ import Logo from "./../src/Assets/Images/logo_3.png";
 import close from "./Assets/Images/close_big.svg";
 
 import "./../src/Admin/Styles/NavBar.css";
+import { IonButton, IonContent, IonItem, IonPopover } from "@ionic/react";
 
 const NavBar: React.FC = () => {
   const [navbar, setNavbar] = useState(false);
+  const [existingUser, setExistingUser] = useState(false);
 
   return (
     <nav className="navbar ">
@@ -60,13 +62,31 @@ const NavBar: React.FC = () => {
             <a href="#">Home</a>
           </span>
           <span>
-            <a href="#">Blog</a>
+            <a href="https://afleet.io/blog/feed/](https://afleet.io/blog/feed/">
+              Blog
+            </a>
           </span>
           <span>
-            <a href="#">Case Studies</a>
+            <a href="https://afleet.io/case-studies">Case Studies</a>
           </span>
           <span>
-            <a href="#">Existing User</a>
+            <a id="existing-button" href="#">
+              Existing User
+            </a>
+            <IonPopover
+              side="bottom"
+              trigger="existing-button"
+              triggerAction="click"
+            >
+              <IonContent>
+                <IonItem>
+                  <IonButton>Ambassador</IonButton>
+                </IonItem>
+                <IonItem>
+                  <IonButton>Program Manager</IonButton>
+                </IonItem>
+              </IonContent>
+            </IonPopover>
           </span>
           <a href="#">
             <button className="get-started">Get Started</button>
@@ -86,15 +106,40 @@ const NavBar: React.FC = () => {
             <a href="#">Home</a>
           </span>
           <span>
-            <a href="#">Blog</a>
+            <a href="https://afleet.io/blog/feed/](https://afleet.io/blog/feed/">
+              Blog
+            </a>
           </span>
           <span>
-            <a href="#">Case Studies</a>
+            <a href="https://afleet.io/case-studies">Case Studies</a>
           </span>
-          <span>
-            <a href="#">Existing User</a>
+          <span
+            onClick={() => {
+              setExistingUser(true);
+            }}
+          >
+            <a id="existing-sidenav" href="#">
+              Existing User
+            </a>
+            <IonPopover
+              side="bottom"
+              isOpen={existingUser}
+              onDidDismiss={() => {
+                setExistingUser(false);
+              }}
+              triggerAction="click"
+            >
+              <IonContent>
+                <IonItem>
+                  <IonButton>Ambassador</IonButton>
+                </IonItem>
+                <IonItem>
+                  <IonButton>Program Manager</IonButton>
+                </IonItem>
+              </IonContent>
+            </IonPopover>
           </span>
-          <a href="#">
+          <a href="#pricing">
             <button className="get-started">Get Started</button>
           </a>
         </div>
