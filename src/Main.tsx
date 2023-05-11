@@ -77,7 +77,7 @@ const Main: React.FC = () => {
       <IonPage>
         <IonContent>
           <IonSegment mode="md" style={{ marginTop: 50 }}>
-            Invalid URL{console.log("httyy")}
+            Invalid URL
           </IonSegment>
         </IonContent>
       </IonPage>

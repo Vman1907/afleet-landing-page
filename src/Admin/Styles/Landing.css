@@ -74,7 +74,7 @@ body{
 .intro-companies .companies{
     margin-top: 1rem;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     gap: 1.5rem;
 }
@@ -118,8 +118,9 @@ body{
 
 .ad-platform .heading{
     font-size: 2.75rem;
-    font-weight: 500;
+    font-weight: bold;
     padding-bottom: 2rem;
+    padding: 0 1rem;
 }
 
 .ad-platform .ad-company-container{
@@ -331,6 +332,7 @@ padding: 0.75rem 2.25rem;
 }
 
 .community-container .content .text-content{
+    padding: 0 2rem;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -469,6 +471,7 @@ width: 90vw;
     position: relative;
     top: 200px;
     gap: 3rem;
+    padding: 0 1rem;
 }
 
 .pricing-container .service-info div{
@@ -476,6 +479,7 @@ width: 90vw;
     flex-direction: row;
     align-items: center;
     width: 250px;
+    gap: 1rem;
 }
 
 .FAQ-container {
@@ -514,6 +518,12 @@ width: 90vw;
    .faq-section .faq-accordions {
     max-width: 760px;
     margin: 0 auto;
+   }
+
+   .faq-section .faq-accordions .accordion-row div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
    }
    
    .faq-section .faq-accordions .accordion-row {
@@ -742,6 +752,7 @@ ul.nacc li div{
 
     .community-container .content .text-content{
         text-align: center;
+        padding: 0 2rem;
     }
 
     .pricing-container .price-wrapper{
@@ -792,11 +803,27 @@ ul.nacc li div{
     }
 
     .ad-platform .heading{
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
+
+    .ad-platform .ad-company-container{
+        padding: 1rem 1rem;
+    }
+
+    .ad-platform .ad-company-container .company-container img{
+        width: 40px
+    };
 
     .video-popover{
         --height: 202.5px;
         --width: 360px;
+    }
+
+    .information .heading{
+        padding: 0 1rem;
+    }
+
+    .community-container .heading{
+        padding: 0 1rem;
     }
 }

@@ -73,9 +73,11 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 import { useState } from "react";
 import { Redirect } from "react-router";
+import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowDown } from "react-icons/io";
 
 const Landing: React.FC = () => {
-  const [faq, setFaq] = useState(0);
+  const [faq, setFaq] = useState(6);
   const [video, setVideo] = useState(false);
   const [signup, setSignup] = useState(false);
 
@@ -656,7 +658,18 @@ const Landing: React.FC = () => {
                       onClick={() => setFaq(0)}
                       className={faq === 0 ? "title open" : "title"}
                     >
+                      <span>
                       HOW TO ASK FOR SUPPORT
+                      </span>
+                      {
+                        faq === 0 ? <span>
+                        <IoIosArrowForward />
+                        </span>
+                        :
+                        <span>
+                        <IoIosArrowDown />
+                        </span>
+                      }
                     </div>
                     <div className="content">
                       Afleet team is available to help you. With any package you
@@ -672,7 +685,19 @@ const Landing: React.FC = () => {
                       onClick={() => setFaq(1)}
                       className={faq === 1 ? "title open" : "title"}
                     >
+                      <span>
+
                       HOW TO FIND BRAND AMBASSADORS
+                      </span>
+                      {
+                        faq === 1 ? <span>
+                        <IoIosArrowForward />
+                        </span>
+                        :
+                        <span>
+                        <IoIosArrowDown />
+                        </span>
+                      }
                     </div>
                     <div className="content">
                       With easy-to-use drag and drop feature, it takes less than
@@ -688,7 +713,19 @@ const Landing: React.FC = () => {
                       onClick={() => setFaq(2)}
                       className={faq === 2 ? "title open" : "title"}
                     >
+                      <span>
+
                       WHAT IF I WANT TO UPGRADE PACKAGE
+                      </span>
+                      {
+                        faq === 2 ? <span>
+                        <IoIosArrowForward />
+                        </span>
+                        :
+                        <span>
+                        <IoIosArrowDown />
+                        </span>
+                      }
                     </div>
                     <div className="content">
                       From your account section, you can easily upgrade limits
@@ -701,7 +738,19 @@ const Landing: React.FC = () => {
                       onClick={() => setFaq(3)}
                       className={faq === 3 ? "title open" : "title"}
                     >
+                      <span>
+
                       CAN I RECRUIT ALL OF MY CUSTOMERS AS BRAND AMBASSADORS
+                      </span>
+                      {
+                        faq === 3 ? <span>
+                        <IoIosArrowForward />
+                        </span>
+                        :
+                        <span>
+                        <IoIosArrowDown />
+                        </span>
+                      }
                     </div>
                     <div className="content">
                       Generally saying, It is not a good idea to recruit

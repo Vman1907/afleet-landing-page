@@ -21,23 +21,18 @@ const Footer = () => {
           <span>Afleet LLC</span>
           <span>1702, Tower 1, Boulevard Plaza, Downtown Dubai,</span>
           <span>UAE</span>
-          <span>
-            <img src={twitter} alt="" />
-            <img src={youtube} alt="" />
-            <img src={webLink} alt="" />
-          </span>
         </div>
         <div className="links-wrapper">
           <div className="links-container">
             <span className="links-heading">Company</span>
             <span>
-              <a>Home</a>
+              <a href="">Home</a>
             </span>
             <span>
-              <a>User generated content</a>
+              <a href="https://afleet.io/ugc-user-generated-content/">User generated content</a>
             </span>
             <span>
-              <a>Case Studies</a>
+              <a href='https://afleet.io/case-studies/'>Case Studies</a>
             </span>
             <span>
               <a>FAQs</a>
@@ -47,31 +42,36 @@ const Footer = () => {
             <span className="links-heading">Important</span>
 
             <span>
-              <a>Affliate Program</a>
+              <a href='https://afleet.io/affiliate-program'>Affliate Program</a>
             </span>
             <span>
-              <a>Terms</a>
+              <a href='https://afleet.io/terms/'>Terms</a>
             </span>
             <span>
-              <a>Privacy</a>
+              <a href='https://afleet.io/privacy-policy/'>Privacy</a>
             </span>
             <span>
-              <a>Refund Policy</a>
+              <a href='https://afleet.io/refund-policy'>Refund Policy</a>
             </span>
           </div>
           <div className="links-container">
             <span className="links-heading">Blog Posts</span>
 
             <span>
-              <a>
+              <a href='https://afleet.io/nft-marketing-leveraging-nfts-for-visibility-and-growth/'>
                 Marketing with NFTs: Leveraging Non-fungible Tokens for
                 Visibility and Growth
               </a>
             </span>
             <span>
-              <a>
+              <a href='https://afleet.io/web3-community-connection-how-to-build-a-successful-web3-army/'>
                 Web3 Community connection: How to build your successful Web3
                 army
+              </a>
+            </span>
+            <span>
+              <a href='https://afleet.io/best-social-media-channels-for-web3-marketing/'>
+              Best Social Media Channels for Web3 marketing
               </a>
             </span>
           </div>
