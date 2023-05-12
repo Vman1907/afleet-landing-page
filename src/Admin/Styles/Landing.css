@@ -25,7 +25,7 @@ body{
     display: flex;
     flex-direction: column;
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: BOLD;
     font-family: 'Merriweather', serif;;
 }
 
@@ -40,11 +40,15 @@ body{
 }
 
 .intro-links .get-started{
+    background: transparent;
+}
+
+.intro-links .get-started button{
     background: #0D2137;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #fff;
     border-radius: 15px;
-    padding: 0.5rem 0.7rem;
+    padding: 0.5rem 3rem;
     scroll-behavior: smooth;
 }
 
@@ -59,10 +63,6 @@ body{
     color: #fff;
     text-decoration: none;
     font-size: 1.25rem;
-}
-
-.intro-links .get-started{
-    padding: 0.5rem 2rem;
 }
 
 .intro-companies{
@@ -92,9 +92,10 @@ body{
 }
 
 .video-popover{
-    --width: 560px;
-    --height: 315px;
+    --width: 840px;
+    --height: 472.5px;
     /* position: relative; */
+    border-radius: 20px;
 }
 
 .video-popover iframe{
@@ -117,7 +118,7 @@ body{
 }
 
 .ad-platform .heading{
-    font-size: 2.75rem;
+    font-size: 2rem;
     font-weight: bold;
     padding-bottom: 2rem;
     padding: 0 1rem;
@@ -169,6 +170,11 @@ body{
 .ad-platform .ad-company-container-filter a{
     color:  #456086;
     text-decoration: none;
+}
+
+.ad-platform .ad-company-container-filter span:nth-child(2){
+    text-decoration: underline;
+    font-size: 1rem;
 }
 
 .information{
@@ -238,7 +244,7 @@ body{
 }
 
 .quotes-container .quotes-caption{
-    font-size: 0.75rem;
+    font-size: 1rem;
     margin-top: 1rem;
     color: #8F8F8F;
 }
@@ -263,7 +269,7 @@ body{
 }
 
 .usage-container .usage-heading{
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 3rem auto;
     color: #2E77AE;
     font-weight: bold;
@@ -318,9 +324,9 @@ padding: 0.75rem 2.25rem;
 
 .community-container .heading{
     color: #2E77AE;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .community-container .content {
@@ -471,7 +477,7 @@ width: 90vw;
     position: relative;
     top: 200px;
     gap: 3rem;
-    padding: 0 1rem;
+    padding: 2rem 1rem;
 }
 
 .pricing-container .service-info div{
@@ -777,6 +783,7 @@ ul.nacc li div{
 
     .pricing-container .service-info{
         top: 450px;
+        padding: 2rem 1rem;
     }
 
     .naccs{
@@ -803,7 +810,7 @@ ul.nacc li div{
     }
 
     .ad-platform .heading{
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     .ad-platform .ad-company-container{

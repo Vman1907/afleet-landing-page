@@ -1,4 +1,6 @@
-import pic from "./../src/Assets/Images/homeComponent.png";
+import {useEffect, useRef} from 'react'
+
+import pic from "./../src/Assets/Images/homeComponent.svg";
 import "./../src/Admin/Styles/Landing.css";
 
 import company1 from "./../src/Assets/Images/home-company-1.svg";
@@ -75,11 +77,23 @@ import { useState } from "react";
 import { Redirect } from "react-router";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Landing: React.FC = () => {
   const [faq, setFaq] = useState(6);
   const [video, setVideo] = useState(false);
   const [signup, setSignup] = useState(false);
+
+  const targetRef = useRef<HTMLDivElement>(null)
+
+  const scrollFunction =()=>{
+    targetRef.current?.scrollIntoView({behavior: 'smooth'})
+  }
+
+  useEffect(() => {
+    document.title = 'Community marketing software for Startups | Afleet';
+  })
+  
 
   if (signup === true) {
     return <Redirect to="user/signup"></Redirect>;
@@ -88,12 +102,12 @@ const Landing: React.FC = () => {
   return (
     <IonPage>
       <IonContent scrollY={true} scrollX={false} className="landing">
-        <NavBar />
+        <NavBar scrollFunction={scrollFunction} />
         <div className="home-container">
           <div className="row intro justify-content-center">
             <div className="col-lg-5 col-md-6 col-sm-10">
               <div className="intro-heading">
-                <span>
+                {/* <span>
                   <span className="primary">Turn Your</span> Customers{" "}
                   <span className="Into"></span>
                 </span>
@@ -101,17 +115,16 @@ const Landing: React.FC = () => {
                   Raving Fans <span className="primary">In No Time</span>
                 </span>
                 <span className="primary">Without Costly Ad</span>
-                <span className="primary">Campaigns</span>
+                <span className="primary">Campaigns</span> */}
+                <span>Community Marketing Software for User Driven Companies</span>
               </div>
               <div className="intro-info">
                 <span>
-                  Afleet helps you turn your customers into brand ambassadors
-                </span>
-                <span>and unlock ultimate organic growth for your brand</span>
+                Afleet enables you to turn every customer into your brand advocate, so you grow through word of mouth without getting lost in a competitive market</span>
               </div>
               <div className="intro-links">
                 <button className="get-started">
-                  <a href="#pricing">Get Started</a>
+                  <button onClick={scrollFunction}>Get Started</button>
                 </button>
                 {/* <button className="learn-more">Learn More</button> */}
               </div>
@@ -157,7 +170,7 @@ const Landing: React.FC = () => {
                 .......and thousands of others available through Zapier
               </span>
               <span>
-                <a href="https://afleet.io/integrations">Learn More</a>
+                <a href="https://afleet.io/integrations">Learn More&nbsp;&nbsp;<AiOutlineArrowRight /></a>
               </span>
             </div>
 
@@ -497,7 +510,7 @@ const Landing: React.FC = () => {
               </div>
             </div>
           </div>
-          <div id="pricing" className="pricing-container">
+          <div ref={targetRef} className="pricing-container">
             <div className="heading-container">
               <span className="">Simple pricing for your business</span>
               <span>
@@ -523,33 +536,39 @@ const Landing: React.FC = () => {
                   your business.
                 </span>
                 <span>
-                  <span className="list-dot"></span>International calling and
-                  messaging API
+                  <span className="list-dot"></span>Unlimited ambassador seats
+
                 </span>
                 <span>
-                  <span className="list-dot"></span>Additional phone numbers
+                  <span className="list-dot"></span>Unlimited campaigns 
                 </span>
                 <span>
-                  <span className="list-dot"></span>Automated messages via
-                  Zapier
+                  <span className="list-dot"></span>Unlimited rewards
+
                 </span>
                 <span>
-                  <span className="list-dot"></span>24/7 support and consulting
+                  <span className="list-dot"></span>3 manager seats
+                </span>
+                <span>
+                  <span className="list-dot"></span> Community chat
+                </span>
+                <span>
+                  <span className="list-dot"></span> High quality support
                 </span>
               </div>
             </div>
             <div className="service-info">
               <div>
                 <img src={servicePic1} alt="" />
-                <span>14 days money back Guarantee</span>
+                <span>14 days free trial</span>
               </div>
               <div>
                 <img src={servicePic2} alt="" />
-                <span>No setup fees 100% hassle-free</span>
+                <span>Onboarding support</span>
               </div>
               <div>
                 <img src={servicePic3} alt="" />
-                <span>No monthly subscription Pay once and for all</span>
+                <span>Cancel anytime. Risk-free</span>
               </div>
             </div>
           </div>

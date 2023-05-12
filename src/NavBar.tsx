@@ -7,7 +7,11 @@ import close from "./Assets/Images/close_big.svg";
 import "./../src/Admin/Styles/NavBar.css";
 import { IonButton, IonContent, IonItem, IonPopover } from "@ionic/react";
 
-const NavBar: React.FC = () => {
+interface NavBarProps{
+  scrollFunction:()=>void
+}
+
+const NavBar: React.FC<NavBarProps> = ({scrollFunction}) => {
   const [navbar, setNavbar] = useState(false);
   const [existingUser, setExistingUser] = useState(false);
 
