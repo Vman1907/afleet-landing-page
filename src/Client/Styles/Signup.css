@@ -69,3 +69,33 @@
     font-weight: 600;
 
 }
+
+.signup-page .info-column{
+    width: 400px;
+    max-width: 100vw!important;
+}
+
+.signup-page .form-column{
+    width: 400px;
+    max-width: 100vw!important;
+}
+
+@media screen and (max-width:741px) {
+    .signup-page .signup-row{
+        flex-direction: column-reverse;
+    }
+
+    .signup-page .info-column{
+        width: 80vw!important;
+    }
+
+    .signup-page .form-column{
+        width: 80vw!important;
+    }
+
+    .signup-page form{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+}

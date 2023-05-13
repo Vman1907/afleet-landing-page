@@ -11,8 +11,7 @@ import {
 import NavBar from "../../NavBar";
 import { useState } from "react";
 
-import "../../Admin/Styles/Signup.css";
-import Footer from "../../Footer";
+import "../Styles/Signup.css";
 import { Redirect } from "react-router";
 
 const Signup = () => {
@@ -35,7 +34,7 @@ const Signup = () => {
         <NavBar />
         <IonGrid>
           <IonRow class="signup-row justify-content-center">
-            <IonCol size="4">
+            <IonCol class="info-column" size="4">
               <div className="info-container">
                 <span>Don't pay today. Make sure you love it first.</span>
                 <span>
@@ -56,7 +55,7 @@ const Signup = () => {
                 </span>
               </div>
             </IonCol>
-            <IonCol size="4">
+            <IonCol class="form-column" size="4">
               <form onSubmit={handleClick}>
                 <span className="heading">Create an account</span>
                 <IonItem class="input-container">
@@ -102,7 +101,6 @@ const Signup = () => {
             </IonCol>
           </IonRow>
         </IonGrid>
-        <Footer />
       </IonContent>
     </IonPage>
   );
