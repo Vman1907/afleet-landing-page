@@ -84,12 +84,6 @@ const Landing: React.FC = () => {
   const [video, setVideo] = useState(false);
   const [signup, setSignup] = useState(false);
 
-  const targetRef = useRef<HTMLDivElement>(null)
-
-  const scrollFunction =()=>{
-    targetRef.current?.scrollIntoView({behavior: 'smooth'})
-  }
-
   useEffect(() => {
     document.title = 'Community marketing software for Startups | Afleet';
   })
@@ -102,20 +96,11 @@ const Landing: React.FC = () => {
   return (
     <IonPage>
       <IonContent scrollY={true} scrollX={false} className="landing">
-        <NavBar scrollFunction={scrollFunction} />
+        <NavBar  />
         <div className="home-container">
           <div className="row intro justify-content-center">
             <div className="col-lg-5 col-md-6 col-sm-10">
               <div className="intro-heading">
-                {/* <span>
-                  <span className="primary">Turn Your</span> Customers{" "}
-                  <span className="Into"></span>
-                </span>
-                <span>
-                  Raving Fans <span className="primary">In No Time</span>
-                </span>
-                <span className="primary">Without Costly Ad</span>
-                <span className="primary">Campaigns</span> */}
                 <span>Community Marketing Software for User Driven Companies</span>
               </div>
               <div className="intro-info">
@@ -124,7 +109,7 @@ const Landing: React.FC = () => {
               </div>
               <div className="intro-links">
                 <button className="get-started">
-                  <button onClick={scrollFunction}>Get Started</button>
+                  <a href='#pricing' >Get Started</a>
                 </button>
                 {/* <button className="learn-more">Learn More</button> */}
               </div>
@@ -510,7 +495,7 @@ const Landing: React.FC = () => {
               </div>
             </div>
           </div>
-          <div ref={targetRef} className="pricing-container">
+          <div id='pricing' className="pricing-container">
             <div className="heading-container">
               <span className="">Simple pricing for your business</span>
               <span>

@@ -3,6 +3,7 @@ body{
 }
 
 .landing{
+    scroll-behavior: smooth!important;
     font-family: 'Poppins';
     overflow-x: hidden;
 }
@@ -38,17 +39,12 @@ body{
 .intro-links{
     margin-top: 2.5rem;
 }
-
-.intro-links .get-started{
-    background: transparent;
-}
-
-.intro-links .get-started button{
+.intro-links .get-started {
     background: #0D2137;
     font-size: 1.25rem;
     color: #fff;
     border-radius: 15px;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 2rem;
     scroll-behavior: smooth;
 }
 

@@ -19,7 +19,8 @@ const Footer = () => {
           <span>We obsess over tracking so</span>
           <span>you don't have to.</span>
           <span>Afleet LLC</span>
-          <span>1702, Tower 1, Boulevard Plaza, Downtown Dubai,</span>
+          <span>1702, Tower 1, Boulevard Plaza,</span>
+          <span>Downtown Dubai,</span>
           <span>UAE</span>
         </div>
         <div className="links-wrapper">
